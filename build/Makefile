@@ -128,6 +128,30 @@ nibbles/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/build
 .PHONY : nibbles/fast
 
+src/entity.obj: src/entity.cpp.obj
+.PHONY : src/entity.obj
+
+# target to build an object file
+src/entity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/entity.cpp.obj
+.PHONY : src/entity.cpp.obj
+
+src/entity.i: src/entity.cpp.i
+.PHONY : src/entity.i
+
+# target to preprocess a source file
+src/entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/entity.cpp.i
+.PHONY : src/entity.cpp.i
+
+src/entity.s: src/entity.cpp.s
+.PHONY : src/entity.s
+
+# target to generate assembly for a file
+src/entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/entity.cpp.s
+.PHONY : src/entity.cpp.s
+
 src/game.obj: src/game.cpp.obj
 .PHONY : src/game.obj
 
@@ -176,29 +200,53 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/textureLoader.obj: src/textureLoader.cpp.obj
-.PHONY : src/textureLoader.obj
+src/object.obj: src/object.cpp.obj
+.PHONY : src/object.obj
 
 # target to build an object file
-src/textureLoader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj
-.PHONY : src/textureLoader.cpp.obj
+src/object.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/object.cpp.obj
+.PHONY : src/object.cpp.obj
 
-src/textureLoader.i: src/textureLoader.cpp.i
-.PHONY : src/textureLoader.i
+src/object.i: src/object.cpp.i
+.PHONY : src/object.i
 
 # target to preprocess a source file
-src/textureLoader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/textureLoader.cpp.i
-.PHONY : src/textureLoader.cpp.i
+src/object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/object.cpp.i
+.PHONY : src/object.cpp.i
 
-src/textureLoader.s: src/textureLoader.cpp.s
-.PHONY : src/textureLoader.s
+src/object.s: src/object.cpp.s
+.PHONY : src/object.s
 
 # target to generate assembly for a file
-src/textureLoader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/textureLoader.cpp.s
-.PHONY : src/textureLoader.cpp.s
+src/object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/object.cpp.s
+.PHONY : src/object.cpp.s
+
+src/renderer.obj: src/renderer.cpp.obj
+.PHONY : src/renderer.obj
+
+# target to build an object file
+src/renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/renderer.cpp.obj
+.PHONY : src/renderer.cpp.obj
+
+src/renderer.i: src/renderer.cpp.i
+.PHONY : src/renderer.i
+
+# target to preprocess a source file
+src/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/renderer.cpp.i
+.PHONY : src/renderer.cpp.i
+
+src/renderer.s: src/renderer.cpp.s
+.PHONY : src/renderer.s
+
+# target to generate assembly for a file
+src/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/renderer.cpp.s
+.PHONY : src/renderer.cpp.s
 
 # Help Target
 help:
@@ -209,15 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... nibbles
+	@echo ... src/entity.obj
+	@echo ... src/entity.i
+	@echo ... src/entity.s
 	@echo ... src/game.obj
 	@echo ... src/game.i
 	@echo ... src/game.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/textureLoader.obj
-	@echo ... src/textureLoader.i
-	@echo ... src/textureLoader.s
+	@echo ... src/object.obj
+	@echo ... src/object.i
+	@echo ... src/object.s
+	@echo ... src/renderer.obj
+	@echo ... src/renderer.i
+	@echo ... src/renderer.s
 .PHONY : help
 
 

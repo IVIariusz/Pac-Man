@@ -13,8 +13,20 @@
 },
 {
   "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\textureLoader.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\textureLoader.cpp",
-  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/textureLoader.cpp",
-  "output": "CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\renderer.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\renderer.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/renderer.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/renderer.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\object.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\object.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/object.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/object.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\entity.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\entity.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/entity.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/entity.cpp.obj"
 }
 ]

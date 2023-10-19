@@ -3,13 +3,21 @@
 #include <SFML/Graphics.hpp>
 #include <filesystem>
 
-class TextureLoader{
+#include "object.h"
+
+class Renderer{
     protected:
+        sf::RenderWindow& window;
         std::vector<sf::Texture> textures;
         std::filesystem::path path;
+        std::vector<Object> objects;
+        std::vector<sf::Sprite> spritesToRender;
     public:
-        TextureLoader();
+        Renderer(sf::RenderWindow &window);
         void loadTexturesToVector(std::string _path);
+        void addObjectToRender(Object& temp);
+
+        void Render();
 };
 
 #endif //TEXTURELOADER

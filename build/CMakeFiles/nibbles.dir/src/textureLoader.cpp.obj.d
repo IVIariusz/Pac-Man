@@ -1,6 +1,6 @@
-CMakeFiles/nibbles.dir/src/game.cpp.obj: \
- C:\Users\mwozn\OneDrive\Pulpit\SFML\src\game.cpp \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/game.h \
+CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj: \
+ C:\Users\mwozn\OneDrive\Pulpit\SFML\src\textureLoader.cpp \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/textureLoader.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -254,7 +254,6 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer.h \
  C:/mingw64/include/c++/13.1.0/filesystem \
  C:/mingw64/include/c++/13.1.0/bits/fs_fwd.h \
  C:/mingw64/include/c++/13.1.0/cstdint \
@@ -277,6 +276,4 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/align.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/object.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/entity.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h
