@@ -253,9 +253,5 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/mingw64/include/c++/13.1.0/iostream \
- C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/map.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/entity.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/game.h

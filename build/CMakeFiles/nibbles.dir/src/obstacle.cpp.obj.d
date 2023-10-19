@@ -1,6 +1,6 @@
-CMakeFiles/nibbles.dir/src/map.cpp.obj: \
- C:\Users\mwozn\OneDrive\Pulpit\SFML\src\map.cpp \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/map.h \
+CMakeFiles/nibbles.dir/src/obstacle.cpp.obj: \
+ C:\Users\mwozn\OneDrive\Pulpit\SFML\src\obstacle.cpp \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/obstacle.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/includes.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
@@ -283,6 +283,4 @@ CMakeFiles/nibbles.dir/src/map.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/textureManager.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/obstacle.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/entity.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/textureManager.h

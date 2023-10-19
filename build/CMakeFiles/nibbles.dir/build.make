@@ -83,65 +83,48 @@ CMakeFiles/nibbles.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\main.cpp -o CMakeFiles\nibbles.dir\src\main.cpp.s
 
-CMakeFiles/nibbles.dir/src/renderer.cpp.obj: CMakeFiles/nibbles.dir/flags.make
-CMakeFiles/nibbles.dir/src/renderer.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
-CMakeFiles/nibbles.dir/src/renderer.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/renderer.cpp
-CMakeFiles/nibbles.dir/src/renderer.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nibbles.dir/src/renderer.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/renderer.cpp.obj -MF CMakeFiles\nibbles.dir\src\renderer.cpp.obj.d -o CMakeFiles\nibbles.dir\src\renderer.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\renderer.cpp
+CMakeFiles/nibbles.dir/src/game.cpp.obj: CMakeFiles/nibbles.dir/flags.make
+CMakeFiles/nibbles.dir/src/game.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
+CMakeFiles/nibbles.dir/src/game.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/game.cpp
+CMakeFiles/nibbles.dir/src/game.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nibbles.dir/src/game.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/game.cpp.obj -MF CMakeFiles\nibbles.dir\src\game.cpp.obj.d -o CMakeFiles\nibbles.dir\src\game.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\game.cpp
 
-CMakeFiles/nibbles.dir/src/renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/renderer.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\renderer.cpp > CMakeFiles\nibbles.dir\src\renderer.cpp.i
+CMakeFiles/nibbles.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/game.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\game.cpp > CMakeFiles\nibbles.dir\src\game.cpp.i
 
-CMakeFiles/nibbles.dir/src/renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/renderer.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\renderer.cpp -o CMakeFiles\nibbles.dir\src\renderer.cpp.s
+CMakeFiles/nibbles.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/game.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\game.cpp -o CMakeFiles\nibbles.dir\src\game.cpp.s
 
-CMakeFiles/nibbles.dir/src/map.cpp.obj: CMakeFiles/nibbles.dir/flags.make
-CMakeFiles/nibbles.dir/src/map.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
-CMakeFiles/nibbles.dir/src/map.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/map.cpp
-CMakeFiles/nibbles.dir/src/map.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nibbles.dir/src/map.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/map.cpp.obj -MF CMakeFiles\nibbles.dir\src\map.cpp.obj.d -o CMakeFiles\nibbles.dir\src\map.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\map.cpp
+CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj: CMakeFiles/nibbles.dir/flags.make
+CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
+CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/textureLoader.cpp
+CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj -MF CMakeFiles\nibbles.dir\src\textureLoader.cpp.obj.d -o CMakeFiles\nibbles.dir\src\textureLoader.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\textureLoader.cpp
 
-CMakeFiles/nibbles.dir/src/map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/map.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\map.cpp > CMakeFiles\nibbles.dir\src\map.cpp.i
+CMakeFiles/nibbles.dir/src/textureLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/textureLoader.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\textureLoader.cpp > CMakeFiles\nibbles.dir\src\textureLoader.cpp.i
 
-CMakeFiles/nibbles.dir/src/map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/map.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\map.cpp -o CMakeFiles\nibbles.dir\src\map.cpp.s
-
-CMakeFiles/nibbles.dir/src/entity.cpp.obj: CMakeFiles/nibbles.dir/flags.make
-CMakeFiles/nibbles.dir/src/entity.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
-CMakeFiles/nibbles.dir/src/entity.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/entity.cpp
-CMakeFiles/nibbles.dir/src/entity.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nibbles.dir/src/entity.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/entity.cpp.obj -MF CMakeFiles\nibbles.dir\src\entity.cpp.obj.d -o CMakeFiles\nibbles.dir\src\entity.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\entity.cpp
-
-CMakeFiles/nibbles.dir/src/entity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/entity.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\entity.cpp > CMakeFiles\nibbles.dir\src\entity.cpp.i
-
-CMakeFiles/nibbles.dir/src/entity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/entity.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\entity.cpp -o CMakeFiles\nibbles.dir\src\entity.cpp.s
+CMakeFiles/nibbles.dir/src/textureLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/textureLoader.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\textureLoader.cpp -o CMakeFiles\nibbles.dir\src\textureLoader.cpp.s
 
 # Object files for target nibbles
 nibbles_OBJECTS = \
 "CMakeFiles/nibbles.dir/src/main.cpp.obj" \
-"CMakeFiles/nibbles.dir/src/renderer.cpp.obj" \
-"CMakeFiles/nibbles.dir/src/map.cpp.obj" \
-"CMakeFiles/nibbles.dir/src/entity.cpp.obj"
+"CMakeFiles/nibbles.dir/src/game.cpp.obj" \
+"CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj"
 
 # External object files for target nibbles
 nibbles_EXTERNAL_OBJECTS =
 
 nibbles.exe: CMakeFiles/nibbles.dir/src/main.cpp.obj
-nibbles.exe: CMakeFiles/nibbles.dir/src/renderer.cpp.obj
-nibbles.exe: CMakeFiles/nibbles.dir/src/map.cpp.obj
-nibbles.exe: CMakeFiles/nibbles.dir/src/entity.cpp.obj
+nibbles.exe: CMakeFiles/nibbles.dir/src/game.cpp.obj
+nibbles.exe: CMakeFiles/nibbles.dir/src/textureLoader.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/build.make
 nibbles.exe: C:/SFML/lib/libsfml-system-d.a
 nibbles.exe: C:/SFML/lib/libsfml-window-d.a
@@ -149,7 +132,7 @@ nibbles.exe: C:/SFML/lib/libsfml-graphics-d.a
 nibbles.exe: CMakeFiles/nibbles.dir/linkLibs.rsp
 nibbles.exe: CMakeFiles/nibbles.dir/objects1.rsp
 nibbles.exe: CMakeFiles/nibbles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable nibbles.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable nibbles.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nibbles.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

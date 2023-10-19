@@ -254,6 +254,9 @@ CMakeFiles/nibbles.dir/src/renderer.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/colider.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/entity.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/map.h \
  C:/mingw64/include/c++/13.1.0/fstream \
  C:/mingw64/include/c++/13.1.0/istream \
  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \

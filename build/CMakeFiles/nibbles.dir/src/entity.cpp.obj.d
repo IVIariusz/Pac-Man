@@ -1,6 +1,8 @@
 CMakeFiles/nibbles.dir/src/entity.cpp.obj: \
  C:\Users\mwozn\OneDrive\Pulpit\SFML\src\entity.cpp \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/entity.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/textureManager.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/includes.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -254,8 +256,32 @@ CMakeFiles/nibbles.dir/src/entity.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/map.h \
  C:/mingw64/include/c++/13.1.0/iostream \
  C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/fstream \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
+ C:/mingw64/include/c++/13.1.0/filesystem \
+ C:/mingw64/include/c++/13.1.0/bits/fs_fwd.h \
+ C:/mingw64/include/c++/13.1.0/cstdint \
+ C:/mingw64/include/c++/13.1.0/bits/chrono.h \
+ C:/mingw64/include/c++/13.1.0/ratio C:/mingw64/include/c++/13.1.0/limits \
+ C:/mingw64/include/c++/13.1.0/bits/parse_numbers.h \
+ C:/mingw64/include/c++/13.1.0/bits/fs_path.h \
+ C:/mingw64/include/c++/13.1.0/iomanip \
+ C:/mingw64/include/c++/13.1.0/bits/quoted_string.h \
+ C:/mingw64/include/c++/13.1.0/sstream \
+ C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
+ C:/mingw64/include/c++/13.1.0/codecvt \
+ C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/align.h \
+ C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
+ C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/obstacle.h
