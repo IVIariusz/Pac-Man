@@ -107,6 +107,7 @@ CMakeFiles/nibbles.dir/src/entity.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/s
   C:/mingw64/include/c++/13.1.0/bits/hash_bytes.h \
   C:/mingw64/include/c++/13.1.0/bits/invoke.h \
   C:/mingw64/include/c++/13.1.0/bits/ios_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/iterator_concepts.h \
   C:/mingw64/include/c++/13.1.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.1.0/bits/locale_classes.tcc \
@@ -186,6 +187,8 @@ CMakeFiles/nibbles.dir/src/entity.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/s
   C:/mingw64/include/c++/13.1.0/initializer_list \
   C:/mingw64/include/c++/13.1.0/ios \
   C:/mingw64/include/c++/13.1.0/iosfwd \
+  C:/mingw64/include/c++/13.1.0/iostream \
+  C:/mingw64/include/c++/13.1.0/istream \
   C:/mingw64/include/c++/13.1.0/iterator \
   C:/mingw64/include/c++/13.1.0/locale \
   C:/mingw64/include/c++/13.1.0/map \

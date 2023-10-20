@@ -39,17 +39,20 @@ void Renderer::addObjectToRender(Object& temp)
 }
 
 void Renderer::Render() {
+    int x;
     for(int i = objects.size() - 1; i >= 0; i--) {
+        sf::Sprite tempSprite;
         if(objects[i].getStructure().isChanging || objects[i].getStructure().isSet == false)
         {
-            sf::Sprite tempSprite;
             tempSprite.setPosition(objects[i].getStructure().pos.x, objects[i].getStructure().pos.y);
-            tempSprite.setTexture(textures[objects[i].getStructure().textureId]);
-            spritesToRender.push_back(tempSprite);
+            if(objects[i].getStructure().textureId != x) {
+                tempSprite.setTexture(textures[objects[i].getStructure().textureId]);
+                spritesToRender.push_back(tempSprite);
+                x = objects[i].getStructure().textureId;
+            }
             objects[i].Set();
         }
-
-        window.draw(spritesToRender[i]);
+        window.draw(tempSprite);
     }
 
     for(int i = objects.size() - 1; i >= 0; i--) {
@@ -57,4 +60,4 @@ void Renderer::Render() {
             objects.erase(objects.begin() + i);
         }
     }
-}
+} 

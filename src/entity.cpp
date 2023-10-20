@@ -1,4 +1,6 @@
 #include "entity.h"
+#include <iostream>
+
 
 Entity::Entity(){
     structure.isChanging = true;
@@ -9,7 +11,7 @@ Entity::Entity(){
 
 void Entity::Animate()
 {
-    if(animationClock.getElapsedTime().asMilliseconds() >= ANIMATION_TIME)
+    if(animationClock.getElapsedTime().asMilliseconds() >= ANIMATION_TIME * 2)
     {
         structure.textureId = structure.textureId + 1;
         if(structure.textureId > 4) structure.textureId = 0;

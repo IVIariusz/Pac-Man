@@ -9,7 +9,6 @@ void Game::Run(){
     Entity entity;
     Renderer rend(window);
     rend.loadTexturesToVector("pac man movement.png");
-    rend.addObjectToRender(entity);
 
     while (window.isOpen()) {
         sf::Event event;
@@ -23,9 +22,9 @@ void Game::Run(){
             }
         }
         window.clear();
+        rend.Render();
         entity.Animate();
         rend.addObjectToRender(entity);
-        rend.Render();
         window.display();
     }
 }
