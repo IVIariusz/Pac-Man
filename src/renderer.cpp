@@ -31,6 +31,8 @@ void Renderer::loadTexturesToVector(std::string _path){
             textures.push_back(tempTexture);
         }
     }
+
+    std::cout << textures.size();
 }
 
 void Renderer::addObjectToRender(Object& temp)
@@ -38,18 +40,23 @@ void Renderer::addObjectToRender(Object& temp)
     objects.push_back(temp);
 }
 
+void Renderer::addVectorOfStructureToRender(std::vector<Object> temp)
+{
+    for(int i = 0; i < temp.size(); i++)
+    {
+        objects.push_back(temp[i]);
+    }
+}
+
 void Renderer::Render() {
-    int x;
     for(int i = objects.size() - 1; i >= 0; i--) {
         sf::Sprite tempSprite;
         if(objects[i].getStructure().isChanging || objects[i].getStructure().isSet == false)
         {
             tempSprite.setPosition(objects[i].getStructure().pos.x, objects[i].getStructure().pos.y);
-            if(objects[i].getStructure().textureId != x) {
-                tempSprite.setTexture(textures[objects[i].getStructure().textureId]);
-                spritesToRender.push_back(tempSprite);
-                x = objects[i].getStructure().textureId;
-            }
+            tempSprite.setTexture(textures[objects[i].getStructure().textureId]);
+            spritesToRender.push_back(tempSprite);
+
             objects[i].Set();
         }
         window.draw(tempSprite);

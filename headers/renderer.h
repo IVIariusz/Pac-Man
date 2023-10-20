@@ -16,6 +16,7 @@ class Renderer{
         Renderer(sf::RenderWindow &window);
         void loadTexturesToVector(std::string _path);
         void addObjectToRender(Object& temp);
+        void addVectorOfStructureToRender(std::vector<Object> temp);
 
         void Render();
 };

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nibbles.dir/src/game.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/main.cpp.obj"
   "CMakeFiles/nibbles.dir/src/main.cpp.obj.d"
+  "CMakeFiles/nibbles.dir/src/map.cpp.obj"
+  "CMakeFiles/nibbles.dir/src/map.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/object.cpp.obj"
   "CMakeFiles/nibbles.dir/src/object.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/renderer.cpp.obj"

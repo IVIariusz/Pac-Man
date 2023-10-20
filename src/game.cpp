@@ -1,14 +1,19 @@
 #include "game.h"
 #include "renderer.h"
 #include "entity.h"
+#include "map.h"
 
 Game::Game(sf::RenderWindow& window) : window(window){}
 
 void Game::Run(){
 
+    map mapa;
     Entity entity;
-    Renderer rend(window);
-    rend.loadTexturesToVector("pac man movement.png");
+    Renderer entityRenderer(window);
+    Renderer mapRenderer(window);
+    entityRenderer.loadTexturesToVector("pac man movement.png");
+    mapRenderer.loadTexturesToVector("map.png");
+    mapa.setMap("C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\map\\map1.txt");
 
     while (window.isOpen()) {
         sf::Event event;
@@ -22,9 +27,12 @@ void Game::Run(){
             }
         }
         window.clear();
-        rend.Render();
-        entity.Animate();
-        rend.addObjectToRender(entity);
+            mapRenderer.addVectorOfStructureToRender(mapa.returnToRender());
+            mapRenderer.Render();
+            
+            entityRenderer.Render();
+            entity.Animate();
+            entityRenderer.addObjectToRender(entity);
         window.display();
     }
 }

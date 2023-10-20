@@ -279,4 +279,10 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/object.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/entity.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/entity.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/map.h \
+ C:/mingw64/include/c++/13.1.0/fstream \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
+ C:/mingw64/include/c++/13.1.0/iostream

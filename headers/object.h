@@ -20,6 +20,7 @@ class Object {
         void Set();
         void setTexture(int _textureId);
         ObjectStructure getStructure();
+        void setStructure(int x, int y, int textureId, bool isChanging);
 };
 
 #endif //OBJECT
