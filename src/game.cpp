@@ -7,13 +7,14 @@ Game::Game(sf::RenderWindow& window) : window(window){}
 
 void Game::Run(){
 
-    map mapa;
+    map mapa(window);
     Entity entity;
     Renderer entityRenderer(window);
     Renderer mapRenderer(window);
     entityRenderer.loadTexturesToVector("pac man movement.png");
     mapRenderer.loadTexturesToVector("map.png");
     mapa.setMap("C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\map\\map1.txt");
+    mapRenderer.addVectorOfStructureToRender(mapa.returnToRender());
 
     while (window.isOpen()) {
         sf::Event event;
@@ -27,7 +28,6 @@ void Game::Run(){
             }
         }
         window.clear();
-            mapRenderer.addVectorOfStructureToRender(mapa.returnToRender());
             mapRenderer.Render();
             
             entityRenderer.Render();

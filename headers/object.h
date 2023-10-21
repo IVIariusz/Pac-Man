@@ -9,6 +9,7 @@ struct ObjectStructure{
     bool isChanging;
     int textureId;
     bool isSet = false;
+    float size = 1;
 };
 
 class Object {

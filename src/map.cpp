@@ -1,7 +1,7 @@
 #include "map.h"
 #include "settings.h"
 
-map::map(){
+map::map(sf::RenderWindow &window) : window(window){
 
 }
 
@@ -14,11 +14,11 @@ void map::setMap(std::string url){
     while (std::getline(inputFile, line)) {
         mapData.push_back(line);
     }
-    int textureID, x, y = 0;
+    int textureID, i = 0, j = 0, x = 0, y = 0;
 
-    for(int i=0; i < mapData.size(); i++)
+    for(i=0; i < mapData.size(); i++)
     {
-        for(int j=0; j < mapData.at(i).length(); j++)
+        for(j=0; j < mapData.at(i).length(); j++)
         {
             textureID = 0;
             if(mapData.at(i)[j] != '#')
@@ -47,22 +47,17 @@ void map::setMap(std::string url){
                 if(textureID == 1) tempId = 18;
                 if(textureID == 2) tempId = 15;
 
-
-                // if(textureID == 12) tempId = 15;
-                // if(textureID == 2) tempId  = 17;
-                // if(textureID == 1) tempId  = 18;
-
                 if(textureID == 0) tempId = 19;
 
-                
-
-                
                 Object tempMapField;
                 tempMapField.setStructure((j * NORMAL_TILE_SIZE), (i * NORMAL_TILE_SIZE), tempId - 1, false);
                 mapa.push_back(tempMapField);
             }
         }
     }
+
+    window.setSize(sf::Vector2u(j*NORMAL_TILE_SIZE, i*NORMAL_TILE_SIZE)); 
+
 }
 
 std::vector<Object> map::returnToRender(){

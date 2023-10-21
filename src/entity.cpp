@@ -7,6 +7,7 @@ Entity::Entity(){
     sf::Vector2 pos(200, 200);
     structure.pos = pos;
     structure.textureId = 4;
+    structure.size = 0.7;
 }
 
 void Entity::Animate()

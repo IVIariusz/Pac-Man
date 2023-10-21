@@ -55,16 +55,23 @@ void Renderer::Render() {
         {
             tempSprite.setPosition(objects[i].getStructure().pos.x, objects[i].getStructure().pos.y);
             tempSprite.setTexture(textures[objects[i].getStructure().textureId]);
-            spritesToRender.push_back(tempSprite);
+            tempSprite.setScale(objects[i].getStructure().size, objects[i].getStructure().size);
 
+            TileToRender tempTile;
+            tempTile.tile = tempSprite;
+            tempTile.isChanging = objects[i].getStructure().isChanging;
+            spritesToRender.push_back(tempTile);
+            
             objects[i].Set();
         }
-        window.draw(tempSprite);
     }
 
     for(int i = objects.size() - 1; i >= 0; i--) {
+        window.draw(spritesToRender[i].tile);
         if (objects[i].getStructure().isChanging) {
+            if(spritesToRender[i].isChanging) spritesToRender.erase(spritesToRender.begin() + i);
             objects.erase(objects.begin() + i);
+            i--;
         }
     }
 } 

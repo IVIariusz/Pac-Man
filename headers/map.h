@@ -11,8 +11,9 @@ class map {
     private:
         std::vector<std::string> mapData;
         std::vector<Object> mapa;
+        sf::RenderWindow &window;
     public:
-        map();
+        map(sf::RenderWindow& window);
         void setMap(std::string url);
 
         std::vector<Object> returnToRender();
