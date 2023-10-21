@@ -11,12 +11,12 @@ class map {
     private:
         std::vector<std::string> mapData;
         std::vector<Object> mapa;
-        sf::RenderWindow &window;
     public:
-        map(sf::RenderWindow& window);
+        map();
         void setMap(std::string url);
 
         std::vector<Object> returnToRender();
+        std::vector<std::string> returnMapData();
 };
 
 #endif //MAP

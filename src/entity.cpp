@@ -1,13 +1,28 @@
 #include "entity.h"
+#include "collisionManager.h"
 #include <iostream>
+#include "settings.h"
 
 
-Entity::Entity(){
+Entity::Entity(map& mapa) : mapa(mapa), manager(mapa){
+
     structure.isChanging = true;
-    sf::Vector2 pos(200, 200);
-    structure.pos = pos;
     structure.textureId = 4;
-    structure.size = 0.7;
+    structure.size = ENTITY_SIZE;
+
+    for(int i = 0; i < mapa.returnMapData().size(); i++)
+    {
+        for(int j = 0; j < mapa.returnMapData()[i].length(); j++)
+        {
+            if(mapa.returnMapData()[i][j] == '0')
+            {
+                sf::Vector2f pos(j * NORMAL_TILE_SIZE, i * NORMAL_TILE_SIZE);
+                structure.pos = pos;
+                std::cout << j * NORMAL_TILE_SIZE << std::endl;
+                std::cout << i * NORMAL_TILE_SIZE << std::endl;
+            }
+        }
+    }
 }
 
 void Entity::Animate()
@@ -18,4 +33,27 @@ void Entity::Animate()
         if(structure.textureId > 4) structure.textureId = 0;
         animationClock.restart();
     }
+    
+}
+
+void Entity::Move(int x, int y)
+{
+    int PosX = structure.pos.x / NORMAL_TILE_SIZE + 2;
+    int PosY = structure.pos.y / NORMAL_TILE_SIZE + 1;
+
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x+0.1, structure.pos.y)) structure.pos.x += 0.1;
+    }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x-0.1, structure.pos.y)) structure.pos.x -= 0.1;
+    }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
+        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x, structure.pos.y-0.1)) structure.pos.y -= 0.1;
+    }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x, structure.pos.y+0.1)) structure.pos.y += 0.1;
+    }
+
+    Animate();
+
 }

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/nibbles.dir/src/collisionManager.cpp.obj"
+  "CMakeFiles/nibbles.dir/src/collisionManager.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/entity.cpp.obj"
   "CMakeFiles/nibbles.dir/src/entity.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/game.cpp.obj"

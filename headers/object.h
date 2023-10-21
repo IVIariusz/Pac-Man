@@ -5,7 +5,7 @@
 #include <SFML/Graphics.hpp>
 
 struct ObjectStructure{
-    sf::Vector2<int> pos;
+    sf::Vector2f pos;
     bool isChanging;
     int textureId;
     bool isSet = false;

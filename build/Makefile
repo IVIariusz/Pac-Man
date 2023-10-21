@@ -128,6 +128,30 @@ nibbles/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/build
 .PHONY : nibbles/fast
 
+src/collisionManager.obj: src/collisionManager.cpp.obj
+.PHONY : src/collisionManager.obj
+
+# target to build an object file
+src/collisionManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/collisionManager.cpp.obj
+.PHONY : src/collisionManager.cpp.obj
+
+src/collisionManager.i: src/collisionManager.cpp.i
+.PHONY : src/collisionManager.i
+
+# target to preprocess a source file
+src/collisionManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/collisionManager.cpp.i
+.PHONY : src/collisionManager.cpp.i
+
+src/collisionManager.s: src/collisionManager.cpp.s
+.PHONY : src/collisionManager.s
+
+# target to generate assembly for a file
+src/collisionManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/collisionManager.cpp.s
+.PHONY : src/collisionManager.cpp.s
+
 src/entity.obj: src/entity.cpp.obj
 .PHONY : src/entity.obj
 
@@ -281,6 +305,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... nibbles
+	@echo ... src/collisionManager.obj
+	@echo ... src/collisionManager.i
+	@echo ... src/collisionManager.s
 	@echo ... src/entity.obj
 	@echo ... src/entity.i
 	@echo ... src/entity.s

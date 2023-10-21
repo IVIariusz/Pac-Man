@@ -2,19 +2,20 @@
 #include "renderer.h"
 #include "entity.h"
 #include "map.h"
+#include "collisionManager.h"
 
 Game::Game(sf::RenderWindow& window) : window(window){}
 
 void Game::Run(){
 
-    map mapa(window);
-    Entity entity;
+    map mapa;
     Renderer entityRenderer(window);
     Renderer mapRenderer(window);
     entityRenderer.loadTexturesToVector("pac man movement.png");
     mapRenderer.loadTexturesToVector("map.png");
     mapa.setMap("C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\map\\map1.txt");
     mapRenderer.addVectorOfStructureToRender(mapa.returnToRender());
+    Entity entity(mapa);
 
     while (window.isOpen()) {
         sf::Event event;
@@ -29,9 +30,8 @@ void Game::Run(){
         }
         window.clear();
             mapRenderer.Render();
-            
             entityRenderer.Render();
-            entity.Animate();
+            entity.Move(2, 2);
             entityRenderer.addObjectToRender(entity);
         window.display();
     }

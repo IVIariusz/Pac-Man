@@ -1,7 +1,7 @@
 #include "map.h"
 #include "settings.h"
 
-map::map(sf::RenderWindow &window) : window(window){
+map::map(){
 
 }
 
@@ -53,13 +53,22 @@ void map::setMap(std::string url){
                 tempMapField.setStructure((j * NORMAL_TILE_SIZE), (i * NORMAL_TILE_SIZE), tempId - 1, false);
                 mapa.push_back(tempMapField);
             }
+            else
+            {
+                Object tempMapField;
+                tempMapField.setStructure((j * NORMAL_TILE_SIZE), (i * NORMAL_TILE_SIZE), 15, false);
+                mapa.push_back(tempMapField);
+            }
         }
     }
 
-    window.setSize(sf::Vector2u(j*NORMAL_TILE_SIZE, i*NORMAL_TILE_SIZE)); 
-
+    std::cout << "rozmiar: " << mapa.size();
 }
 
 std::vector<Object> map::returnToRender(){
     return mapa;
+}
+
+std::vector<std::string> map::returnMapData(){
+    return mapData;
 }

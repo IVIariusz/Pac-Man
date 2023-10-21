@@ -256,6 +256,14 @@ CMakeFiles/nibbles.dir/src/entity.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/mingw64/include/c++/13.1.0/iostream \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/map.h \
+ C:/mingw64/include/c++/13.1.0/fstream \
  C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
+ C:/mingw64/include/c++/13.1.0/iostream \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/collisionManager.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/collisionManager.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h
