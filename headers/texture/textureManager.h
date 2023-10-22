@@ -10,7 +10,6 @@
 class TextureManager {
 private:
     std::vector<TextureLoader> textures;
-
 public:
     TextureManager();
     std::vector<sf::Texture>& getTexturesAtName(std::string name);

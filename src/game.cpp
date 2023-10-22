@@ -1,6 +1,6 @@
 #include "game.h"
 
-Game::Game(sf::RenderWindow& window) : GameWindow(window) {
+Game::Game(sf::RenderWindow& window) : GameRenderer(window), GameWindow(window){
 
 }
 
@@ -18,6 +18,7 @@ void Game::Run() {
         }
 
         GameWindow.clear();
+        GameRenderer.Render(ManagerOfObjects.getObjects());
         GameWindow.display();
     }
 }

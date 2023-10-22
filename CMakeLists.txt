@@ -3,8 +3,12 @@ project(nibbles)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(nibbles src/main.cpp src/game.cpp src/texture/textureManager.cpp src/texture/textureLoader.cpp
-headers/game.h headers/settings.h headers/texture/textureManager.h headers/texture/textureLoader.h)
+add_executable(nibbles src/main.cpp src/game.cpp src/texture/textureManager.cpp src/texture/textureLoader.cpp 
+src/renderer/renderer.cpp src/objects/objectManager.cpp src/objects/Entity/entityManager.cpp src/objects/map/mapManager.cpp
+src/objects/map/structure.cpp
+headers/game.h headers/settings.h headers/texture/textureManager.h headers/texture/textureLoader.h 
+headers/renderer/renderer.h headers/objects/objectManager.h headers/objects/Entity/entityManager.h headers/objects/map/mapManager.h
+headers/objects/map/structure.h headers/renderer/renderObjectStructure.h)
 include_directories(headers /usr/include C:/SFML/include/SFML)
 
 set(SFML_ROOT C:/SFML)

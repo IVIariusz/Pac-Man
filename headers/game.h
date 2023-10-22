@@ -1,12 +1,14 @@
 #ifndef GAME
 #define GAME
 #include <SFML/Graphics.hpp>
-#include "texture/textureManager.h"
+#include "renderer/renderer.h"
+#include "objects/objectManager.h"
 
 class Game {
     private:
         sf::RenderWindow& GameWindow;
-        TextureManager managerOfTexture;
+        Renderer GameRenderer;
+        objectManager ManagerOfObjects;
     public:
         Game(sf::RenderWindow& window);
         void Run();

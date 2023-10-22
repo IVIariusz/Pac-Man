@@ -10,6 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/game.cpp" "CMakeFiles/nibbles.dir/src/game.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/game.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/main.cpp" "CMakeFiles/nibbles.dir/src/main.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/main.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Entity/entityManager.cpp" "CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/mapManager.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/structure.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/objectManager.cpp" "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/renderer/renderer.cpp" "CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/texture/textureLoader.cpp" "CMakeFiles/nibbles.dir/src/texture/textureLoader.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/texture/textureLoader.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/texture/textureManager.cpp" "CMakeFiles/nibbles.dir/src/texture/textureManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/texture/textureManager.cpp.obj.d"
   )

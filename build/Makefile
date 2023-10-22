@@ -176,6 +176,126 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/objects/Entity/entityManager.obj: src/objects/Entity/entityManager.cpp.obj
+.PHONY : src/objects/Entity/entityManager.obj
+
+# target to build an object file
+src/objects/Entity/entityManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj
+.PHONY : src/objects/Entity/entityManager.cpp.obj
+
+src/objects/Entity/entityManager.i: src/objects/Entity/entityManager.cpp.i
+.PHONY : src/objects/Entity/entityManager.i
+
+# target to preprocess a source file
+src/objects/Entity/entityManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.i
+.PHONY : src/objects/Entity/entityManager.cpp.i
+
+src/objects/Entity/entityManager.s: src/objects/Entity/entityManager.cpp.s
+.PHONY : src/objects/Entity/entityManager.s
+
+# target to generate assembly for a file
+src/objects/Entity/entityManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.s
+.PHONY : src/objects/Entity/entityManager.cpp.s
+
+src/objects/Map/mapManager.obj: src/objects/Map/mapManager.cpp.obj
+.PHONY : src/objects/Map/mapManager.obj
+
+# target to build an object file
+src/objects/Map/mapManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj
+.PHONY : src/objects/Map/mapManager.cpp.obj
+
+src/objects/Map/mapManager.i: src/objects/Map/mapManager.cpp.i
+.PHONY : src/objects/Map/mapManager.i
+
+# target to preprocess a source file
+src/objects/Map/mapManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.i
+.PHONY : src/objects/Map/mapManager.cpp.i
+
+src/objects/Map/mapManager.s: src/objects/Map/mapManager.cpp.s
+.PHONY : src/objects/Map/mapManager.s
+
+# target to generate assembly for a file
+src/objects/Map/mapManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.s
+.PHONY : src/objects/Map/mapManager.cpp.s
+
+src/objects/Map/structure.obj: src/objects/Map/structure.cpp.obj
+.PHONY : src/objects/Map/structure.obj
+
+# target to build an object file
+src/objects/Map/structure.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj
+.PHONY : src/objects/Map/structure.cpp.obj
+
+src/objects/Map/structure.i: src/objects/Map/structure.cpp.i
+.PHONY : src/objects/Map/structure.i
+
+# target to preprocess a source file
+src/objects/Map/structure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.i
+.PHONY : src/objects/Map/structure.cpp.i
+
+src/objects/Map/structure.s: src/objects/Map/structure.cpp.s
+.PHONY : src/objects/Map/structure.s
+
+# target to generate assembly for a file
+src/objects/Map/structure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.s
+.PHONY : src/objects/Map/structure.cpp.s
+
+src/objects/objectManager.obj: src/objects/objectManager.cpp.obj
+.PHONY : src/objects/objectManager.obj
+
+# target to build an object file
+src/objects/objectManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj
+.PHONY : src/objects/objectManager.cpp.obj
+
+src/objects/objectManager.i: src/objects/objectManager.cpp.i
+.PHONY : src/objects/objectManager.i
+
+# target to preprocess a source file
+src/objects/objectManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.i
+.PHONY : src/objects/objectManager.cpp.i
+
+src/objects/objectManager.s: src/objects/objectManager.cpp.s
+.PHONY : src/objects/objectManager.s
+
+# target to generate assembly for a file
+src/objects/objectManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.s
+.PHONY : src/objects/objectManager.cpp.s
+
+src/renderer/renderer.obj: src/renderer/renderer.cpp.obj
+.PHONY : src/renderer/renderer.obj
+
+# target to build an object file
+src/renderer/renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj
+.PHONY : src/renderer/renderer.cpp.obj
+
+src/renderer/renderer.i: src/renderer/renderer.cpp.i
+.PHONY : src/renderer/renderer.i
+
+# target to preprocess a source file
+src/renderer/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.i
+.PHONY : src/renderer/renderer.cpp.i
+
+src/renderer/renderer.s: src/renderer/renderer.cpp.s
+.PHONY : src/renderer/renderer.s
+
+# target to generate assembly for a file
+src/renderer/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.s
+.PHONY : src/renderer/renderer.cpp.s
+
 src/texture/textureLoader.obj: src/texture/textureLoader.cpp.obj
 .PHONY : src/texture/textureLoader.obj
 
@@ -239,6 +359,21 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/objects/Entity/entityManager.obj
+	@echo ... src/objects/Entity/entityManager.i
+	@echo ... src/objects/Entity/entityManager.s
+	@echo ... src/objects/Map/mapManager.obj
+	@echo ... src/objects/Map/mapManager.i
+	@echo ... src/objects/Map/mapManager.s
+	@echo ... src/objects/Map/structure.obj
+	@echo ... src/objects/Map/structure.i
+	@echo ... src/objects/Map/structure.s
+	@echo ... src/objects/objectManager.obj
+	@echo ... src/objects/objectManager.i
+	@echo ... src/objects/objectManager.s
+	@echo ... src/renderer/renderer.obj
+	@echo ... src/renderer/renderer.i
+	@echo ... src/renderer/renderer.s
 	@echo ... src/texture/textureLoader.obj
 	@echo ... src/texture/textureLoader.i
 	@echo ... src/texture/textureLoader.s

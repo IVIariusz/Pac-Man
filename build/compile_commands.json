@@ -22,5 +22,35 @@
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\texture\\textureLoader.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\texture\\textureLoader.cpp",
   "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/texture/textureLoader.cpp",
   "output": "CMakeFiles/nibbles.dir/src/texture/textureLoader.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\renderer\\renderer.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\renderer\\renderer.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/renderer/renderer.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\objectManager.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\objectManager.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/objectManager.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\Entity\\entityManager.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\Entity\\entityManager.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Entity/entityManager.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\Map\\mapManager.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\Map\\mapManager.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/mapManager.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\Map\\structure.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\Map\\structure.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/structure.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj"
 }
 ]

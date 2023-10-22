@@ -1,5 +1,6 @@
-CMakeFiles/nibbles.dir/src/main.cpp.obj: \
- C:\Users\mwozn\OneDrive\Pulpit\SFML\src\main.cpp \
+CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj: \
+ C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\Map\mapManager.cpp \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -253,16 +254,6 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/game.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderer.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureManager.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureLoader.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/objectManager.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entityManager.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
  C:/mingw64/include/c++/13.1.0/fstream \
  C:/mingw64/include/c++/13.1.0/istream \
  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
@@ -289,4 +280,7 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/align.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
- C:/mingw64/include/c++/13.1.0/iostream
+ C:/mingw64/include/c++/13.1.0/iostream \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h
