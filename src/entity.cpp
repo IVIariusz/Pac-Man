@@ -42,16 +42,16 @@ void Entity::Move(int x, int y)
     int PosY = structure.pos.y / NORMAL_TILE_SIZE + 1;
 
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x+0.1, structure.pos.y)) structure.pos.x += 0.1;
+        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x+SPEED, structure.pos.y)) structure.pos.x +=SPEED;
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x-0.1, structure.pos.y)) structure.pos.x -= 0.1;
+        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x-SPEED, structure.pos.y)) structure.pos.x -=SPEED;
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
-        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x, structure.pos.y-0.1)) structure.pos.y -= 0.1;
+        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x, structure.pos.y-SPEED)) structure.pos.y -=SPEED;
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
-        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x, structure.pos.y+0.1)) structure.pos.y += 0.1;
+        if(!manager.checkCollisionAt(PosY, PosX, structure.pos.x, structure.pos.y+SPEED)) structure.pos.y +=SPEED;
     }
 
     Animate();
