@@ -255,10 +255,10 @@ CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureManager.h \
+ C:/mingw64/include/c++/13.1.0/iostream \
+ C:/mingw64/include/c++/13.1.0/istream \
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureLoader.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
- C:/mingw64/include/c++/13.1.0/iostream \
- C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h

@@ -1,10 +1,6 @@
 #include "objects/Map/mapManager.h"
 
 MapManager::MapManager() {
-    SetMap();
-}
-
-void MapManager::SetMap() {
     std::vector<std::string> mapData;
     std::filesystem::path mapFolderPath = std::filesystem::current_path().parent_path();
     mapFolderPath /= MAP_URL;
@@ -18,6 +14,11 @@ void MapManager::SetMap() {
     while (std::getline(inputFile, line)) {
         mapData.push_back(line);
     }
+
+    SetMap(mapData);
+}
+
+void MapManager::SetMap(std::vector<std::string> mapData) {
     int textureID, i = 0, j = 0, x = 0, y = 0;
     std::vector<structure> lineOfStructure;
 

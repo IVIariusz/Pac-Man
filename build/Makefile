@@ -200,6 +200,54 @@ src/objects/Entity/entityManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.s
 .PHONY : src/objects/Entity/entityManager.cpp.s
 
+src/objects/Map/Dots/dots.obj: src/objects/Map/Dots/dots.cpp.obj
+.PHONY : src/objects/Map/Dots/dots.obj
+
+# target to build an object file
+src/objects/Map/Dots/dots.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj
+.PHONY : src/objects/Map/Dots/dots.cpp.obj
+
+src/objects/Map/Dots/dots.i: src/objects/Map/Dots/dots.cpp.i
+.PHONY : src/objects/Map/Dots/dots.i
+
+# target to preprocess a source file
+src/objects/Map/Dots/dots.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.i
+.PHONY : src/objects/Map/Dots/dots.cpp.i
+
+src/objects/Map/Dots/dots.s: src/objects/Map/Dots/dots.cpp.s
+.PHONY : src/objects/Map/Dots/dots.s
+
+# target to generate assembly for a file
+src/objects/Map/Dots/dots.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.s
+.PHONY : src/objects/Map/Dots/dots.cpp.s
+
+src/objects/Map/Dots/dotsManager.obj: src/objects/Map/Dots/dotsManager.cpp.obj
+.PHONY : src/objects/Map/Dots/dotsManager.obj
+
+# target to build an object file
+src/objects/Map/Dots/dotsManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj
+.PHONY : src/objects/Map/Dots/dotsManager.cpp.obj
+
+src/objects/Map/Dots/dotsManager.i: src/objects/Map/Dots/dotsManager.cpp.i
+.PHONY : src/objects/Map/Dots/dotsManager.i
+
+# target to preprocess a source file
+src/objects/Map/Dots/dotsManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.i
+.PHONY : src/objects/Map/Dots/dotsManager.cpp.i
+
+src/objects/Map/Dots/dotsManager.s: src/objects/Map/Dots/dotsManager.cpp.s
+.PHONY : src/objects/Map/Dots/dotsManager.s
+
+# target to generate assembly for a file
+src/objects/Map/Dots/dotsManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.s
+.PHONY : src/objects/Map/Dots/dotsManager.cpp.s
+
 src/objects/Map/mapManager.obj: src/objects/Map/mapManager.cpp.obj
 .PHONY : src/objects/Map/mapManager.obj
 
@@ -362,6 +410,12 @@ help:
 	@echo ... src/objects/Entity/entityManager.obj
 	@echo ... src/objects/Entity/entityManager.i
 	@echo ... src/objects/Entity/entityManager.s
+	@echo ... src/objects/Map/Dots/dots.obj
+	@echo ... src/objects/Map/Dots/dots.i
+	@echo ... src/objects/Map/Dots/dots.s
+	@echo ... src/objects/Map/Dots/dotsManager.obj
+	@echo ... src/objects/Map/Dots/dotsManager.i
+	@echo ... src/objects/Map/Dots/dotsManager.s
 	@echo ... src/objects/Map/mapManager.obj
 	@echo ... src/objects/Map/mapManager.i
 	@echo ... src/objects/Map/mapManager.s

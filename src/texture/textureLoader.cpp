@@ -15,14 +15,23 @@ TextureLoader::TextureLoader(std::string _path)
     path /= _path;
     sf::Texture ManagerTexture;
     ManagerTexture.loadFromFile(path.string());
+    int x, y;
 
-    int x = ManagerTexture.getSize().x / NORMAL_TILE_SIZE;
-    int y = ManagerTexture.getSize().y / NORMAL_TILE_SIZE;
-
-    if(x == 0 && y == 0) {
-        x = SMALLER_TILE_SIZE;
-        y = SMALLER_TILE_SIZE;
+    if(ManagerTexture.getSize().x < 32)
+    {
+        x = ManagerTexture.getSize().x / 16;
+        y = ManagerTexture.getSize().y / 16;
+        if(ManagerTexture.getSize().x < 16)
+        {
+            x = ManagerTexture.getSize().x / 8;
+            y = ManagerTexture.getSize().y / 8;
+        }
     }
+    else{
+        x = ManagerTexture.getSize().x / 32;
+        y = ManagerTexture.getSize().y / 32;
+    }
+
 
     for(int i = 0; i < x; i++)
     {
@@ -34,7 +43,7 @@ TextureLoader::TextureLoader(std::string _path)
         }
     }
 
-    std::cout << textures.size() << std::endl;
+
 }
 
 std::vector<sf::Texture>& TextureLoader::getTextures() {

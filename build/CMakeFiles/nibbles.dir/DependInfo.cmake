@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/game.cpp" "CMakeFiles/nibbles.dir/src/game.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/game.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/main.cpp" "CMakeFiles/nibbles.dir/src/main.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/main.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Entity/entityManager.cpp" "CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/Dots/dots.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/Dots/dotsManager.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/mapManager.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/structure.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/objectManager.cpp" "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj.d"

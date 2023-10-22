@@ -285,4 +285,6 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
  C:/mingw64/include/c++/13.1.0/iostream \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dotsManager.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dots.h

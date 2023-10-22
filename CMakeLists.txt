@@ -5,10 +5,11 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(nibbles src/main.cpp src/game.cpp src/texture/textureManager.cpp src/texture/textureLoader.cpp 
 src/renderer/renderer.cpp src/objects/objectManager.cpp src/objects/Entity/entityManager.cpp src/objects/map/mapManager.cpp
-src/objects/map/structure.cpp
+src/objects/map/structure.cpp src/objects/map/dots/dotsManager.cpp src/objects/map/dots/dots.cpp
 headers/game.h headers/settings.h headers/texture/textureManager.h headers/texture/textureLoader.h 
 headers/renderer/renderer.h headers/objects/objectManager.h headers/objects/Entity/entityManager.h headers/objects/map/mapManager.h
-headers/objects/map/structure.h headers/renderer/renderObjectStructure.h)
+headers/objects/map/structure.h headers/renderer/renderObjectStructure.h headers/objects/map/dots/dotsManager.h
+headers/objects/map/dots/dots.h)
 include_directories(headers /usr/include C:/SFML/include/SFML)
 
 set(SFML_ROOT C:/SFML)

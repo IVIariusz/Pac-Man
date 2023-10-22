@@ -52,5 +52,17 @@
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\Map\\structure.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\Map\\structure.cpp",
   "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/structure.cpp",
   "output": "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\Map\\Dots\\dotsManager.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\Map\\Dots\\dotsManager.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/Dots/dotsManager.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\Map\\Dots\\dots.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\Map\\Dots\\dots.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/Dots/dots.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj"
 }
 ]

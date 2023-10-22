@@ -8,6 +8,7 @@
 #include "objects/Map/structure.h"
 #include "renderer/renderObjectStructure.h"
 
+
 #include "settings.h"
 
 class MapManager {
@@ -15,7 +16,7 @@ class MapManager {
         std::vector<std::vector<structure>> mapDataStructure;
     public:
         MapManager();
-        void SetMap();
+        void SetMap(std::vector<std::string> mapData);
         std::vector<std::vector<structure>>& getMapDataStructure();
 };
 

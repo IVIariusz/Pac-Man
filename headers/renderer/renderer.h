@@ -11,7 +11,7 @@ class Renderer {
         sf::RenderWindow& Renderwindow;
     public:
         Renderer(sf::RenderWindow& Renderwindow);
-        void Render(std::vector<std::vector<structure>> renderData);
+        void Render(std::vector<std::vector<renderObjectStructure>> renderData);
 };
 
 #endif //RENDERER

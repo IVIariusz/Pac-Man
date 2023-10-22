@@ -203,6 +203,36 @@ CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\Map\structure.cpp -o CMakeFiles\nibbles.dir\src\objects\Map\structure.cpp.s
 
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj: CMakeFiles/nibbles.dir/flags.make
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/Dots/dotsManager.cpp
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj -MF CMakeFiles\nibbles.dir\src\objects\Map\Dots\dotsManager.cpp.obj.d -o CMakeFiles\nibbles.dir\src\objects\Map\Dots\dotsManager.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\Map\Dots\dotsManager.cpp
+
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\Map\Dots\dotsManager.cpp > CMakeFiles\nibbles.dir\src\objects\Map\Dots\dotsManager.cpp.i
+
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\Map\Dots\dotsManager.cpp -o CMakeFiles\nibbles.dir\src\objects\Map\Dots\dotsManager.cpp.s
+
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj: CMakeFiles/nibbles.dir/flags.make
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/Dots/dots.cpp
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj -MF CMakeFiles\nibbles.dir\src\objects\Map\Dots\dots.cpp.obj.d -o CMakeFiles\nibbles.dir\src\objects\Map\Dots\dots.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\Map\Dots\dots.cpp
+
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\Map\Dots\dots.cpp > CMakeFiles\nibbles.dir\src\objects\Map\Dots\dots.cpp.i
+
+CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\Map\Dots\dots.cpp -o CMakeFiles\nibbles.dir\src\objects\Map\Dots\dots.cpp.s
+
 # Object files for target nibbles
 nibbles_OBJECTS = \
 "CMakeFiles/nibbles.dir/src/main.cpp.obj" \
@@ -213,7 +243,9 @@ nibbles_OBJECTS = \
 "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj" \
 "CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj" \
 "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj" \
-"CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj"
+"CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj" \
+"CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj" \
+"CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj"
 
 # External object files for target nibbles
 nibbles_EXTERNAL_OBJECTS =
@@ -227,6 +259,8 @@ nibbles.exe: CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj
+nibbles.exe: CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj
+nibbles.exe: CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/build.make
 nibbles.exe: C:/SFML/lib/libsfml-system-d.a
 nibbles.exe: C:/SFML/lib/libsfml-window-d.a
@@ -234,7 +268,7 @@ nibbles.exe: C:/SFML/lib/libsfml-graphics-d.a
 nibbles.exe: CMakeFiles/nibbles.dir/linkLibs.rsp
 nibbles.exe: CMakeFiles/nibbles.dir/objects1.rsp
 nibbles.exe: CMakeFiles/nibbles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable nibbles.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable nibbles.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nibbles.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
