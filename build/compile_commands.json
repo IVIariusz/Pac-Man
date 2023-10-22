@@ -64,5 +64,11 @@
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\Map\\Dots\\dots.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\Map\\Dots\\dots.cpp",
   "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/Dots/dots.cpp",
   "output": "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\Entity\\entity.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\Entity\\entity.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Entity/entity.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/Entity/entity.cpp.obj"
 }
 ]

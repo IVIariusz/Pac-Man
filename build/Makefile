@@ -176,6 +176,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/objects/Entity/entity.obj: src/objects/Entity/entity.cpp.obj
+.PHONY : src/objects/Entity/entity.obj
+
+# target to build an object file
+src/objects/Entity/entity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/entity.cpp.obj
+.PHONY : src/objects/Entity/entity.cpp.obj
+
+src/objects/Entity/entity.i: src/objects/Entity/entity.cpp.i
+.PHONY : src/objects/Entity/entity.i
+
+# target to preprocess a source file
+src/objects/Entity/entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/entity.cpp.i
+.PHONY : src/objects/Entity/entity.cpp.i
+
+src/objects/Entity/entity.s: src/objects/Entity/entity.cpp.s
+.PHONY : src/objects/Entity/entity.s
+
+# target to generate assembly for a file
+src/objects/Entity/entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/entity.cpp.s
+.PHONY : src/objects/Entity/entity.cpp.s
+
 src/objects/Entity/entityManager.obj: src/objects/Entity/entityManager.cpp.obj
 .PHONY : src/objects/Entity/entityManager.obj
 
@@ -407,6 +431,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/objects/Entity/entity.obj
+	@echo ... src/objects/Entity/entity.i
+	@echo ... src/objects/Entity/entity.s
 	@echo ... src/objects/Entity/entityManager.obj
 	@echo ... src/objects/Entity/entityManager.i
 	@echo ... src/objects/Entity/entityManager.s

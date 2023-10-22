@@ -257,13 +257,6 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entityManager.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
- C:/mingw64/include/c++/13.1.0/fstream \
- C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
  C:/mingw64/include/c++/13.1.0/filesystem \
  C:/mingw64/include/c++/13.1.0/bits/fs_fwd.h \
  C:/mingw64/include/c++/13.1.0/cstdint \
@@ -274,6 +267,8 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/iomanip \
  C:/mingw64/include/c++/13.1.0/bits/quoted_string.h \
  C:/mingw64/include/c++/13.1.0/sstream \
+ C:/mingw64/include/c++/13.1.0/istream \
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
  C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
  C:/mingw64/include/c++/13.1.0/codecvt \
  C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
@@ -284,7 +279,13 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/align.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
+ C:/mingw64/include/c++/13.1.0/fstream \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entity.h \
  C:/mingw64/include/c++/13.1.0/iostream \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dotsManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dots.h

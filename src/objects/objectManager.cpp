@@ -5,6 +5,7 @@ objectManager::objectManager() {
 }
 
 std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
+    managerOfEntities.Update();
     std::vector<std::vector<renderObjectStructure>> toReturn;
     std::vector<renderObjectStructure> temp;
     for(int i=0; i < managerOfMap.getMapDataStructure().size(); i++)
@@ -25,6 +26,12 @@ std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
         }
         toReturn.push_back(temp);
     }
+
+    for(int i = 0; i < managerOfEntities.getEntities().size(); i++)
+    {
+        temp.push_back(managerOfEntities.getEntities()[i].getStructure());        
+    }
+    toReturn.push_back(temp);
 
     return toReturn;
 }

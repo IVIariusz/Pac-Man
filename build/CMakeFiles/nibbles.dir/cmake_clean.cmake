@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nibbles.dir/src/game.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/main.cpp.obj"
   "CMakeFiles/nibbles.dir/src/main.cpp.obj.d"
+  "CMakeFiles/nibbles.dir/src/objects/Entity/entity.cpp.obj"
+  "CMakeFiles/nibbles.dir/src/objects/Entity/entity.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj"
   "CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj"
