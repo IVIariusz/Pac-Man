@@ -1,6 +1,6 @@
-CMakeFiles/nibbles.dir/src/game.cpp.obj: \
- C:\Users\mwozn\OneDrive\Pulpit\SFML\src\game.cpp \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/game.h \
+CMakeFiles/nibbles.dir/src/texture/textureManager.cpp.obj: \
+ C:\Users\mwozn\OneDrive\Pulpit\SFML\src\texture\textureManager.cpp \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureManager.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -254,6 +254,5 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureLoader.h

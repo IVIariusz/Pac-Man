@@ -94,10 +94,7 @@
 				0,
 				1,
 				2,
-				3,
-				4,
-				5,
-				6
+				3
 			]
 		}
 	],
@@ -152,23 +149,17 @@
 				0,
 				1,
 				2,
-				3,
-				4,
-				5,
-				6
+				3
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13
+				4,
+				5,
+				6,
+				7
 			]
 		}
 	],
@@ -189,31 +180,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/renderer.cpp",
+			"path" : "src/texture/textureManager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/object.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/entity.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/map.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/collisionManager.cpp",
+			"path" : "src/texture/textureLoader.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -228,27 +201,12 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "headers/renderer.h",
+			"path" : "headers/texture/textureManager.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "headers/object.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "headers/entity.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "headers/map.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "headers/collisionManager.h",
+			"path" : "headers/texture/textureLoader.h",
 			"sourceGroupIndex" : 1
 		}
 	],

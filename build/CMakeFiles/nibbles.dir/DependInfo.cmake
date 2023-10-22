@@ -8,13 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/collisionManager.cpp" "CMakeFiles/nibbles.dir/src/collisionManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/collisionManager.cpp.obj.d"
-  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/entity.cpp" "CMakeFiles/nibbles.dir/src/entity.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/entity.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/game.cpp" "CMakeFiles/nibbles.dir/src/game.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/game.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/main.cpp" "CMakeFiles/nibbles.dir/src/main.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/main.cpp.obj.d"
-  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/map.cpp" "CMakeFiles/nibbles.dir/src/map.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/map.cpp.obj.d"
-  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/object.cpp" "CMakeFiles/nibbles.dir/src/object.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/object.cpp.obj.d"
-  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/renderer.cpp" "CMakeFiles/nibbles.dir/src/renderer.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/renderer.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/texture/textureLoader.cpp" "CMakeFiles/nibbles.dir/src/texture/textureLoader.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/texture/textureLoader.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/texture/textureManager.cpp" "CMakeFiles/nibbles.dir/src/texture/textureManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/texture/textureManager.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

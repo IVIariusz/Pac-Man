@@ -254,4 +254,6 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/game.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/game.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureManager.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureLoader.h
