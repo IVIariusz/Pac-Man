@@ -4,6 +4,7 @@
 #include "texture/textureManager.h"
 #include "renderer/renderObjectStructure.h"
 #include "objects/Map/structure.h"
+#include <filesystem>
 
 class Renderer {
     private:

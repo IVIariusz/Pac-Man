@@ -368,6 +368,54 @@ src/objects/Map/structure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.s
 .PHONY : src/objects/Map/structure.cpp.s
 
+src/objects/UI/UI.obj: src/objects/UI/UI.cpp.obj
+.PHONY : src/objects/UI/UI.obj
+
+# target to build an object file
+src/objects/UI/UI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj
+.PHONY : src/objects/UI/UI.cpp.obj
+
+src/objects/UI/UI.i: src/objects/UI/UI.cpp.i
+.PHONY : src/objects/UI/UI.i
+
+# target to preprocess a source file
+src/objects/UI/UI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.i
+.PHONY : src/objects/UI/UI.cpp.i
+
+src/objects/UI/UI.s: src/objects/UI/UI.cpp.s
+.PHONY : src/objects/UI/UI.s
+
+# target to generate assembly for a file
+src/objects/UI/UI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.s
+.PHONY : src/objects/UI/UI.cpp.s
+
+src/objects/UI/UIObject.obj: src/objects/UI/UIObject.cpp.obj
+.PHONY : src/objects/UI/UIObject.obj
+
+# target to build an object file
+src/objects/UI/UIObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj
+.PHONY : src/objects/UI/UIObject.cpp.obj
+
+src/objects/UI/UIObject.i: src/objects/UI/UIObject.cpp.i
+.PHONY : src/objects/UI/UIObject.i
+
+# target to preprocess a source file
+src/objects/UI/UIObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.i
+.PHONY : src/objects/UI/UIObject.cpp.i
+
+src/objects/UI/UIObject.s: src/objects/UI/UIObject.cpp.s
+.PHONY : src/objects/UI/UIObject.s
+
+# target to generate assembly for a file
+src/objects/UI/UIObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.s
+.PHONY : src/objects/UI/UIObject.cpp.s
+
 src/objects/collisionManager/collisionManager.obj: src/objects/collisionManager/collisionManager.cpp.obj
 .PHONY : src/objects/collisionManager/collisionManager.obj
 
@@ -527,6 +575,12 @@ help:
 	@echo ... src/objects/Map/structure.obj
 	@echo ... src/objects/Map/structure.i
 	@echo ... src/objects/Map/structure.s
+	@echo ... src/objects/UI/UI.obj
+	@echo ... src/objects/UI/UI.i
+	@echo ... src/objects/UI/UI.s
+	@echo ... src/objects/UI/UIObject.obj
+	@echo ... src/objects/UI/UIObject.i
+	@echo ... src/objects/UI/UIObject.s
 	@echo ... src/objects/collisionManager/collisionManager.obj
 	@echo ... src/objects/collisionManager/collisionManager.i
 	@echo ... src/objects/collisionManager/collisionManager.s

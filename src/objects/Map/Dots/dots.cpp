@@ -7,11 +7,13 @@ Dots::Dots(sf::Vector2<int> pos, int type) {
     {
     case 2:
         structureData.nameOfTileMap = POWER_PILL_TEXTURE;
-        temp.setPosition(pos.x * NORMAL_TILE_SIZE + 8, pos.y * NORMAL_TILE_SIZE + 8);
+        temp.setPosition(pos.x * NORMAL_TILE_SIZE + 12, pos.y * NORMAL_TILE_SIZE + 12);
+        temp.setScale(0.5, 0.5);
         break;
     default:
         structureData.nameOfTileMap = PILL_TEXTURE;
-        temp.setPosition(pos.x * NORMAL_TILE_SIZE + 12, pos.y * NORMAL_TILE_SIZE + 12);
+        temp.setPosition(pos.x * NORMAL_TILE_SIZE + 16, pos.y * NORMAL_TILE_SIZE + 16);
+        temp.setScale(0.5, 0.5);
         break;
     }
     structureData.sprite = temp;

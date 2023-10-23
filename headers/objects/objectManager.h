@@ -8,6 +8,7 @@
 #include "objects/Map/mapManager.h"
 #include "objects/Map/Dots/dotsManager.h"
 #include "objects/CollisionManager/collisionManager.h"
+#include "objects/UI/UI.h"
 
 class objectManager{
     private:
@@ -15,6 +16,7 @@ class objectManager{
         MapManager managerOfMap;
         DotsManager managerOfDots;
         CollisionManager managerCollision;
+        UIManger managerUI;
     public:
         objectManager();
         std::vector<std::vector<renderObjectStructure>> getObjects();

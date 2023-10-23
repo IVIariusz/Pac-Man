@@ -293,6 +293,36 @@ CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\collisionManager\collisionManager.cpp -o CMakeFiles\nibbles.dir\src\objects\collisionManager\collisionManager.cpp.s
 
+CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj: CMakeFiles/nibbles.dir/flags.make
+CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
+CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/UI/UI.cpp
+CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj -MF CMakeFiles\nibbles.dir\src\objects\UI\UI.cpp.obj.d -o CMakeFiles\nibbles.dir\src\objects\UI\UI.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\UI\UI.cpp
+
+CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\UI\UI.cpp > CMakeFiles\nibbles.dir\src\objects\UI\UI.cpp.i
+
+CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\UI\UI.cpp -o CMakeFiles\nibbles.dir\src\objects\UI\UI.cpp.s
+
+CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: CMakeFiles/nibbles.dir/flags.make
+CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
+CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/UI/UIObject.cpp
+CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: CMakeFiles/nibbles.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj -MF CMakeFiles\nibbles.dir\src\objects\UI\UIObject.cpp.obj.d -o CMakeFiles\nibbles.dir\src\objects\UI\UIObject.cpp.obj -c C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\UI\UIObject.cpp
+
+CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\UI\UIObject.cpp > CMakeFiles\nibbles.dir\src\objects\UI\UIObject.cpp.i
+
+CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mwozn\OneDrive\Pulpit\SFML\src\objects\UI\UIObject.cpp -o CMakeFiles\nibbles.dir\src\objects\UI\UIObject.cpp.s
+
 # Object files for target nibbles
 nibbles_OBJECTS = \
 "CMakeFiles/nibbles.dir/src/main.cpp.obj" \
@@ -309,7 +339,9 @@ nibbles_OBJECTS = \
 "CMakeFiles/nibbles.dir/src/objects/Entity/entity.cpp.obj" \
 "CMakeFiles/nibbles.dir/src/objects/Entity/pacman.cpp.obj" \
 "CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj" \
-"CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj"
+"CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj" \
+"CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj" \
+"CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj"
 
 # External object files for target nibbles
 nibbles_EXTERNAL_OBJECTS =
@@ -329,6 +361,8 @@ nibbles.exe: CMakeFiles/nibbles.dir/src/objects/Entity/entity.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/src/objects/Entity/pacman.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj
+nibbles.exe: CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj
+nibbles.exe: CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj
 nibbles.exe: CMakeFiles/nibbles.dir/build.make
 nibbles.exe: C:/SFML/lib/libsfml-system-d.a
 nibbles.exe: C:/SFML/lib/libsfml-window-d.a
@@ -336,7 +370,7 @@ nibbles.exe: C:/SFML/lib/libsfml-graphics-d.a
 nibbles.exe: CMakeFiles/nibbles.dir/linkLibs.rsp
 nibbles.exe: CMakeFiles/nibbles.dir/objects1.rsp
 nibbles.exe: CMakeFiles/nibbles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable nibbles.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\mwozn\OneDrive\Pulpit\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable nibbles.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nibbles.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

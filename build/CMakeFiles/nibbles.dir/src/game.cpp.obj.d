@@ -263,8 +263,6 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureLoader.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/objectManager.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entityManager.h \
  C:/mingw64/include/c++/13.1.0/filesystem \
  C:/mingw64/include/c++/13.1.0/bits/fs_fwd.h \
  C:/mingw64/include/c++/13.1.0/cstdint \
@@ -285,6 +283,8 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/align.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
  C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/objectManager.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entityManager.h \
  C:/mingw64/include/c++/13.1.0/fstream \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
@@ -295,4 +295,6 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dotsManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dots.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/CollisionManager/collisionManager.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/CollisionManager/collisionManager.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/UI/UI.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/UI/UIObject.h

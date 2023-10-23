@@ -30,6 +30,13 @@ std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
         toReturn.push_back(temp);
     }
     temp.clear();
+    for(int i = 0; i < managerUI.getUI().size(); i++)
+    {
+        temp.push_back(managerUI.getUI()[i].getStructureUI());
+    }
+    toReturn.push_back(temp);
+
+    temp.clear();
     for (int i = 0; i < managerOfEntities.getEntities().size(); i++) {
         Entity* entity = managerOfEntities.getEntities()[i]; 
         temp.push_back(entity->getStructure()); 

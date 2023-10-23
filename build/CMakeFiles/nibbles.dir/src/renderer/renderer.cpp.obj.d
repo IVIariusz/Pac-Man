@@ -261,4 +261,24 @@ CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj: \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/texture/textureLoader.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
+ C:/mingw64/include/c++/13.1.0/filesystem \
+ C:/mingw64/include/c++/13.1.0/bits/fs_fwd.h \
+ C:/mingw64/include/c++/13.1.0/cstdint \
+ C:/mingw64/include/c++/13.1.0/bits/chrono.h \
+ C:/mingw64/include/c++/13.1.0/ratio C:/mingw64/include/c++/13.1.0/limits \
+ C:/mingw64/include/c++/13.1.0/bits/parse_numbers.h \
+ C:/mingw64/include/c++/13.1.0/bits/fs_path.h \
+ C:/mingw64/include/c++/13.1.0/iomanip \
+ C:/mingw64/include/c++/13.1.0/bits/quoted_string.h \
+ C:/mingw64/include/c++/13.1.0/sstream \
+ C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
+ C:/mingw64/include/c++/13.1.0/codecvt \
+ C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/align.h \
+ C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
+ C:/mingw64/include/c++/13.1.0/bits/fs_ops.h

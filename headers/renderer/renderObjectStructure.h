@@ -10,6 +10,7 @@ struct renderObjectStructure
     int textureId;
     std::string nameOfTileMap;
     sf::Sprite sprite;
+    std::string value;
 };
 
 

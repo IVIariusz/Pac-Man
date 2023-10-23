@@ -88,5 +88,17 @@
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\collisionManager\\collisionManager.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\collisionManager\\collisionManager.cpp",
   "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/collisionManager/collisionManager.cpp",
   "output": "CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\UI\\UI.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\UI\\UI.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/UI/UI.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj"
+},
+{
+  "directory": "C:/Users/mwozn/OneDrive/Pulpit/SFML/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\nibbles.dir\\src\\objects\\UI\\UIObject.cpp.obj -c C:\\Users\\mwozn\\OneDrive\\Pulpit\\SFML\\src\\objects\\UI\\UIObject.cpp",
+  "file": "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/UI/UIObject.cpp",
+  "output": "CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj"
 }
 ]
