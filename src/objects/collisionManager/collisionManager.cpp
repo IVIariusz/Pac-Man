@@ -1,6 +1,6 @@
 #include "objects/CollisionManager/collisionManager.h"
 
-CollisionManager::CollisionManager(EntityManager& entities, MapManager& map) : entities(entities), map(map){
+CollisionManager::CollisionManager(EntityManager& entities, MapManager& map, DotsManager& dots) : entities(entities), map(map), dots(dots){
 
 }
 
@@ -17,11 +17,11 @@ void CollisionManager::updateFlags(){
 
         if(entity->getMoveFlags().left)
         {
-            x = (entity->getStructure().sprite.getPosition().x - 8) / NORMAL_TILE_SIZE + 1;
+            x = (entity->getStructure().sprite.getPosition().x + 16) / NORMAL_TILE_SIZE;
         }
         if(entity->getMoveFlags().Right)
         {
-            x = (entity->getStructure().sprite.getPosition().x) / NORMAL_TILE_SIZE;
+            x = (entity->getStructure().sprite.getPosition().x - 16) / NORMAL_TILE_SIZE;
         }
         if(entity->getMoveFlags().Top)
         {
@@ -29,7 +29,7 @@ void CollisionManager::updateFlags(){
         }
         if(entity->getMoveFlags().Down)
         {
-            y = (entity->getStructure().sprite.getPosition().y) / NORMAL_TILE_SIZE;
+            y = (entity->getStructure().sprite.getPosition().y - 16) / NORMAL_TILE_SIZE;
         }
 
 

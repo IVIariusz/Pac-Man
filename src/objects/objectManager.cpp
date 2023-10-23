@@ -1,6 +1,6 @@
 #include "objects/objectManager.h"
 
-objectManager::objectManager() : managerCollision(managerOfEntities, managerOfMap){
+objectManager::objectManager() : managerCollision(managerOfEntities, managerOfMap, managerOfDots){
 
 }
 
@@ -31,7 +31,6 @@ std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
     }
     temp.clear();
     for (int i = 0; i < managerOfEntities.getEntities().size(); i++) {
-        managerOfEntities.getEntities()[i]->setOffset(8); 
         Entity* entity = managerOfEntities.getEntities()[i]; 
         temp.push_back(entity->getStructure()); 
     }

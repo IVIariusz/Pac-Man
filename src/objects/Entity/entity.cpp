@@ -12,6 +12,7 @@ Entity::Entity(sf::Vector2<int> pos, int type, std::string tileMapName){
     Coliderflags.Down = false;
     Coliderflags.Right = false;
     Coliderflags.left = false;
+    structureData.sprite.setOrigin(structureData.sprite.getLocalBounds().width / 2 + 16, structureData.sprite.getLocalBounds().height / 2 + 16);
 }
 
 void Entity::setFlags(bool top, bool down, bool right, bool left)
@@ -36,8 +37,4 @@ renderObjectStructure Entity::getStructure(){
 
 void Entity::Move(){
 
-}
-
-void Entity::setOffset(int n){
-    structureData.sprite.setPosition(structureData.sprite.getPosition().x + n, structureData.sprite.getPosition().y + n);
 }
