@@ -224,6 +224,54 @@ src/objects/Entity/entityManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.s
 .PHONY : src/objects/Entity/entityManager.cpp.s
 
+src/objects/Entity/ghost.obj: src/objects/Entity/ghost.cpp.obj
+.PHONY : src/objects/Entity/ghost.obj
+
+# target to build an object file
+src/objects/Entity/ghost.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj
+.PHONY : src/objects/Entity/ghost.cpp.obj
+
+src/objects/Entity/ghost.i: src/objects/Entity/ghost.cpp.i
+.PHONY : src/objects/Entity/ghost.i
+
+# target to preprocess a source file
+src/objects/Entity/ghost.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.i
+.PHONY : src/objects/Entity/ghost.cpp.i
+
+src/objects/Entity/ghost.s: src/objects/Entity/ghost.cpp.s
+.PHONY : src/objects/Entity/ghost.s
+
+# target to generate assembly for a file
+src/objects/Entity/ghost.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.s
+.PHONY : src/objects/Entity/ghost.cpp.s
+
+src/objects/Entity/pacman.obj: src/objects/Entity/pacman.cpp.obj
+.PHONY : src/objects/Entity/pacman.obj
+
+# target to build an object file
+src/objects/Entity/pacman.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/pacman.cpp.obj
+.PHONY : src/objects/Entity/pacman.cpp.obj
+
+src/objects/Entity/pacman.i: src/objects/Entity/pacman.cpp.i
+.PHONY : src/objects/Entity/pacman.i
+
+# target to preprocess a source file
+src/objects/Entity/pacman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/pacman.cpp.i
+.PHONY : src/objects/Entity/pacman.cpp.i
+
+src/objects/Entity/pacman.s: src/objects/Entity/pacman.cpp.s
+.PHONY : src/objects/Entity/pacman.s
+
+# target to generate assembly for a file
+src/objects/Entity/pacman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Entity/pacman.cpp.s
+.PHONY : src/objects/Entity/pacman.cpp.s
+
 src/objects/Map/Dots/dots.obj: src/objects/Map/Dots/dots.cpp.obj
 .PHONY : src/objects/Map/Dots/dots.obj
 
@@ -437,6 +485,12 @@ help:
 	@echo ... src/objects/Entity/entityManager.obj
 	@echo ... src/objects/Entity/entityManager.i
 	@echo ... src/objects/Entity/entityManager.s
+	@echo ... src/objects/Entity/ghost.obj
+	@echo ... src/objects/Entity/ghost.i
+	@echo ... src/objects/Entity/ghost.s
+	@echo ... src/objects/Entity/pacman.obj
+	@echo ... src/objects/Entity/pacman.i
+	@echo ... src/objects/Entity/pacman.s
 	@echo ... src/objects/Map/Dots/dots.obj
 	@echo ... src/objects/Map/Dots/dots.i
 	@echo ... src/objects/Map/Dots/dots.s

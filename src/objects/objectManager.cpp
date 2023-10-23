@@ -26,10 +26,10 @@ std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
         }
         toReturn.push_back(temp);
     }
-
-    for(int i = 0; i < managerOfEntities.getEntities().size(); i++)
-    {
-        temp.push_back(managerOfEntities.getEntities()[i].getStructure());        
+    temp.clear();
+    for (int i = 0; i < managerOfEntities.getEntities().size(); i++) {
+        Entity* entity = managerOfEntities.getEntities()[i]; // Get the pointer
+        temp.push_back(entity->getStructure()); // Dereference and call getStructure
     }
     toReturn.push_back(temp);
 

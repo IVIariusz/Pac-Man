@@ -285,6 +285,8 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entity.h \
  C:/mingw64/include/c++/13.1.0/iostream \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/pacman.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/ghost.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dotsManager.h \

@@ -29,39 +29,36 @@ void EntityManager::setEntity(std::vector<std::string> mapData){
             if(mapData.at(i)[j] == '0')
             {
                 sf::Vector2<int> temp(j, i);
-                Entity Pacman(temp, 0, PACMAN_MOVEMENT);
-                entites.push_back(Pacman);
+                entites.push_back(new PacMan(temp, 0, PACMAN_MOVEMENT));
             }
             else if(mapData.at(i)[j] == '1')
             {
                 sf::Vector2<int> temp(j, i);
-                Entity Ghost1(temp, 1, PACMAN_MOVEMENT);
-                entites.push_back(Ghost1);
-
+                entites.push_back(new Ghost(temp, 1, PACMAN_MOVEMENT));
             }
             else if(mapData.at(i)[j] == '2')
             {
                 sf::Vector2<int> temp(j, i);
-                Entity Ghost2(temp, 2, PACMAN_MOVEMENT);
-                entites.push_back(Ghost2);
+                entites.push_back(new Ghost(temp, 2, PACMAN_MOVEMENT));
             }
             else if(mapData.at(i)[j] == '3')
             {
                 sf::Vector2<int> temp(j, i);
-                Entity Ghost3(temp, 3, PACMAN_MOVEMENT);
-                entites.push_back(Ghost3);
+                entites.push_back(new Ghost(temp, 3, PACMAN_MOVEMENT));
             }
         }
     }
 }
 
 void EntityManager::Update(){
+
     for(int i=0; i<entites.size(); i++)
     {
-        entites[i].Animate();
+        entites[i]->Move();
+        entites[i]->Animate();
     }
 }
 
-std::vector<Entity>& EntityManager::getEntities(){
+std::vector<Entity*>& EntityManager::getEntities(){
     return entites;
 }

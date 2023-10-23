@@ -283,4 +283,6 @@ CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj: \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entity.h \
  C:/mingw64/include/c++/13.1.0/iostream \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/pacman.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/ghost.h

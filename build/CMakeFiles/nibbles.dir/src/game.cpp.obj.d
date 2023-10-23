@@ -290,6 +290,8 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entity.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/pacman.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/ghost.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dotsManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dots.h

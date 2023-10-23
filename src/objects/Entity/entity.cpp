@@ -21,3 +21,7 @@ void Entity::Animate() {
 renderObjectStructure Entity::getStructure(){
     return structureData;
 }
+
+void Entity::Move(){
+
+}

@@ -16,7 +16,6 @@ void Game::Run() {
                 GameWindow.setView(sf::View(visibleArea));
             }
         }
-
         GameWindow.clear();
         GameRenderer.Render(ManagerOfObjects.getObjects());
         GameWindow.display();

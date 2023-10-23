@@ -7,12 +7,14 @@
 
 class Entity{
     private:
-        renderObjectStructure structureData;
         sf::Clock AnimationClock;
+    protected:
+        renderObjectStructure structureData;
     public:
         Entity(sf::Vector2<int> pos, int type, std::string tileMapName);
         void Animate();
         renderObjectStructure getStructure();
+        virtual void Move();
 };
 
 #endif //ENTITY
