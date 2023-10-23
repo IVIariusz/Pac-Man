@@ -11,8 +11,8 @@ void CollisionManager::updateFlags(){
         top = true, bottom = true, right = true, left = true;
         Entity* entity = entities.getEntities()[i]; 
 
-        int x = (entity->getStructure().sprite.getPosition().x) / NORMAL_TILE_SIZE;
-        int y = (entity->getStructure().sprite.getPosition().y) / NORMAL_TILE_SIZE;
+        int x = (entity->getStructure().sprite.getPosition().x - 16) / NORMAL_TILE_SIZE;
+        int y = (entity->getStructure().sprite.getPosition().y - 16) / NORMAL_TILE_SIZE;
 
         if(entity->getMoveFlags().left)
         {
@@ -36,6 +36,8 @@ void CollisionManager::updateFlags(){
         if(map.getMapDataStructure()[y + 1].at(x).returnObjectStructure().textureId == 15) bottom = false;
         if(map.getMapDataStructure()[y].at(x + 1).returnObjectStructure().textureId == 15) right = false;
         if(map.getMapDataStructure()[y].at(x - 1).returnObjectStructure().textureId == 15) left = false;
+
+        
 
         entity->setFlags(top, bottom, right, left);
     }

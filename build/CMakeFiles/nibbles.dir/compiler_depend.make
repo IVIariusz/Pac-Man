@@ -164,6 +164,7 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/specfun.h \
   C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
@@ -196,6 +197,7 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src
   C:/mingw64/include/c++/13.1.0/cctype \
   C:/mingw64/include/c++/13.1.0/cerrno \
   C:/mingw64/include/c++/13.1.0/clocale \
+  C:/mingw64/include/c++/13.1.0/cmath \
   C:/mingw64/include/c++/13.1.0/codecvt \
   C:/mingw64/include/c++/13.1.0/compare \
   C:/mingw64/include/c++/13.1.0/concepts \
@@ -242,6 +244,18 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src
   C:/mingw64/include/c++/13.1.0/string \
   C:/mingw64/include/c++/13.1.0/string_view \
   C:/mingw64/include/c++/13.1.0/system_error \
+  C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
   C:/mingw64/include/c++/13.1.0/tuple \
   C:/mingw64/include/c++/13.1.0/type_traits \
   C:/mingw64/include/c++/13.1.0/typeinfo \
@@ -282,6 +296,7 @@ CMakeFiles/nibbles.dir/src/game.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src
   C:/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -469,6 +484,7 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/specfun.h \
   C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
@@ -501,6 +517,7 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src
   C:/mingw64/include/c++/13.1.0/cctype \
   C:/mingw64/include/c++/13.1.0/cerrno \
   C:/mingw64/include/c++/13.1.0/clocale \
+  C:/mingw64/include/c++/13.1.0/cmath \
   C:/mingw64/include/c++/13.1.0/codecvt \
   C:/mingw64/include/c++/13.1.0/compare \
   C:/mingw64/include/c++/13.1.0/concepts \
@@ -547,6 +564,18 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src
   C:/mingw64/include/c++/13.1.0/string \
   C:/mingw64/include/c++/13.1.0/string_view \
   C:/mingw64/include/c++/13.1.0/system_error \
+  C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
   C:/mingw64/include/c++/13.1.0/tuple \
   C:/mingw64/include/c++/13.1.0/type_traits \
   C:/mingw64/include/c++/13.1.0/typeinfo \
@@ -587,6 +616,7 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit/SFML/src
   C:/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -1027,6 +1057,7 @@ CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj: C:/Users/mwozn/
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/specfun.h \
   C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
@@ -1059,6 +1090,7 @@ CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj: C:/Users/mwozn/
   C:/mingw64/include/c++/13.1.0/cctype \
   C:/mingw64/include/c++/13.1.0/cerrno \
   C:/mingw64/include/c++/13.1.0/clocale \
+  C:/mingw64/include/c++/13.1.0/cmath \
   C:/mingw64/include/c++/13.1.0/codecvt \
   C:/mingw64/include/c++/13.1.0/compare \
   C:/mingw64/include/c++/13.1.0/concepts \
@@ -1105,6 +1137,18 @@ CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj: C:/Users/mwozn/
   C:/mingw64/include/c++/13.1.0/string \
   C:/mingw64/include/c++/13.1.0/string_view \
   C:/mingw64/include/c++/13.1.0/system_error \
+  C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
   C:/mingw64/include/c++/13.1.0/tuple \
   C:/mingw64/include/c++/13.1.0/type_traits \
   C:/mingw64/include/c++/13.1.0/typeinfo \
@@ -1145,6 +1189,7 @@ CMakeFiles/nibbles.dir/src/objects/Entity/entityManager.cpp.obj: C:/Users/mwozn/
   C:/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -1306,6 +1351,7 @@ CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj: C:/Users/mwozn/OneDrive
   C:/mingw64/include/c++/13.1.0/bits/ranges_util.h \
   C:/mingw64/include/c++/13.1.0/bits/refwrap.h \
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
+  C:/mingw64/include/c++/13.1.0/bits/specfun.h \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algobase.h \
@@ -1336,6 +1382,7 @@ CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj: C:/Users/mwozn/OneDrive
   C:/mingw64/include/c++/13.1.0/cctype \
   C:/mingw64/include/c++/13.1.0/cerrno \
   C:/mingw64/include/c++/13.1.0/clocale \
+  C:/mingw64/include/c++/13.1.0/cmath \
   C:/mingw64/include/c++/13.1.0/compare \
   C:/mingw64/include/c++/13.1.0/concepts \
   C:/mingw64/include/c++/13.1.0/cstddef \
@@ -1359,6 +1406,7 @@ CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj: C:/Users/mwozn/OneDrive
   C:/mingw64/include/c++/13.1.0/iostream \
   C:/mingw64/include/c++/13.1.0/istream \
   C:/mingw64/include/c++/13.1.0/iterator \
+  C:/mingw64/include/c++/13.1.0/limits \
   C:/mingw64/include/c++/13.1.0/locale \
   C:/mingw64/include/c++/13.1.0/map \
   C:/mingw64/include/c++/13.1.0/new \
@@ -1373,6 +1421,18 @@ CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj: C:/Users/mwozn/OneDrive
   C:/mingw64/include/c++/13.1.0/string \
   C:/mingw64/include/c++/13.1.0/string_view \
   C:/mingw64/include/c++/13.1.0/system_error \
+  C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
   C:/mingw64/include/c++/13.1.0/tuple \
   C:/mingw64/include/c++/13.1.0/type_traits \
   C:/mingw64/include/c++/13.1.0/typeinfo \
@@ -1411,6 +1471,7 @@ CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj: C:/Users/mwozn/OneDrive
   C:/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -3500,6 +3561,7 @@ CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj: C:
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/specfun.h \
   C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
@@ -3532,6 +3594,7 @@ CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj: C:
   C:/mingw64/include/c++/13.1.0/cctype \
   C:/mingw64/include/c++/13.1.0/cerrno \
   C:/mingw64/include/c++/13.1.0/clocale \
+  C:/mingw64/include/c++/13.1.0/cmath \
   C:/mingw64/include/c++/13.1.0/codecvt \
   C:/mingw64/include/c++/13.1.0/compare \
   C:/mingw64/include/c++/13.1.0/concepts \
@@ -3578,6 +3641,18 @@ CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj: C:
   C:/mingw64/include/c++/13.1.0/string \
   C:/mingw64/include/c++/13.1.0/string_view \
   C:/mingw64/include/c++/13.1.0/system_error \
+  C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
   C:/mingw64/include/c++/13.1.0/tuple \
   C:/mingw64/include/c++/13.1.0/type_traits \
   C:/mingw64/include/c++/13.1.0/typeinfo \
@@ -3618,6 +3693,7 @@ CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj: C:
   C:/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -3801,6 +3877,7 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: C:/Users/mwozn/OneDriv
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/specfun.h \
   C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
@@ -3833,6 +3910,7 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: C:/Users/mwozn/OneDriv
   C:/mingw64/include/c++/13.1.0/cctype \
   C:/mingw64/include/c++/13.1.0/cerrno \
   C:/mingw64/include/c++/13.1.0/clocale \
+  C:/mingw64/include/c++/13.1.0/cmath \
   C:/mingw64/include/c++/13.1.0/codecvt \
   C:/mingw64/include/c++/13.1.0/compare \
   C:/mingw64/include/c++/13.1.0/concepts \
@@ -3879,6 +3957,18 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: C:/Users/mwozn/OneDriv
   C:/mingw64/include/c++/13.1.0/string \
   C:/mingw64/include/c++/13.1.0/string_view \
   C:/mingw64/include/c++/13.1.0/system_error \
+  C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
+  C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
   C:/mingw64/include/c++/13.1.0/tuple \
   C:/mingw64/include/c++/13.1.0/type_traits \
   C:/mingw64/include/c++/13.1.0/typeinfo \
@@ -3919,6 +4009,7 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: C:/Users/mwozn/OneDriv
   C:/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/mingw64/x86_64-w64-mingw32/include/locale.h \
   C:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/mingw64/x86_64-w64-mingw32/include/math.h \
   C:/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread.h \
   C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -4817,6 +4908,8 @@ C:/SFML/include/SFML/Graphics/Drawable.hpp:
 
 C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/objectManager.cpp:
 
+C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc:
+
 C:/SFML/include/SFML/Graphics/Export.hpp:
 
 C:/mingw64/include/c++/13.1.0/bits/localefwd.h:
@@ -4826,6 +4919,8 @@ C:/SFML/include/SFML/System/Thread.inl:
 C:/SFML/include/SFML/Graphics/Font.hpp:
 
 C:/Users/mwozn/OneDrive/Pulpit/SFML/src/renderer/renderer.cpp:
+
+C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc:
 
 C:/SFML/include/SFML/Graphics/Glsl.hpp:
 
@@ -5151,6 +5246,8 @@ C:/mingw64/include/c++/13.1.0/map:
 
 C:/mingw64/include/c++/13.1.0/bits/nested_exception.h:
 
+C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc:
+
 C:/mingw64/include/c++/13.1.0/bits/new_allocator.h:
 
 C:/mingw64/include/c++/13.1.0/bits/node_handle.h:
@@ -5169,9 +5266,13 @@ C:/mingw64/include/c++/13.1.0/bits/predefined_ops.h:
 
 C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
+C:/mingw64/include/c++/13.1.0/cmath:
+
 C:/mingw64/include/c++/13.1.0/bits/ranges_algo.h:
 
 C:/mingw64/include/c++/13.1.0/bits/ranges_algobase.h:
+
+C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc:
 
 C:/mingw64/include/c++/13.1.0/streambuf:
 
@@ -5186,6 +5287,8 @@ C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h:
 C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h:
 
 C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h:
+
+C:/mingw64/include/c++/13.1.0/bits/specfun.h:
 
 C:/mingw64/include/c++/13.1.0/bits/sstream.tcc:
 
@@ -5301,6 +5404,8 @@ C:/mingw64/include/c++/13.1.0/locale:
 
 C:/mingw64/include/c++/13.1.0/numbers:
 
+C:/mingw64/x86_64-w64-mingw32/include/math.h:
+
 C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h:
 
 C:/mingw64/include/c++/13.1.0/pstl/pstl_config.h:
@@ -5318,6 +5423,24 @@ C:/mingw64/include/c++/13.1.0/string:
 C:/mingw64/include/c++/13.1.0/string_view:
 
 C:/mingw64/include/c++/13.1.0/system_error:
+
+C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc:
+
+C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc:
+
+C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc:
+
+C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc:
+
+C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/error_constants.h:
+
+C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc:
+
+C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc:
+
+C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc:
+
+C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h:
 
 C:/mingw64/include/c++/13.1.0/tuple:
 
@@ -5340,8 +5463,6 @@ C:/Users/mwozn/OneDrive/Pulpit/SFML/src/texture/textureLoader.cpp:
 C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/cpu_defines.h:
 
 C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/ctype_base.h:
-
-C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/error_constants.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/stdint.h:
 

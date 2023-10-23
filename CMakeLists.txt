@@ -13,7 +13,7 @@ headers/game.h headers/settings.h headers/texture/textureManager.h headers/textu
 headers/renderer/renderer.h headers/objects/objectManager.h headers/objects/Entity/entityManager.h headers/objects/map/mapManager.h
 headers/objects/map/structure.h headers/renderer/renderObjectStructure.h headers/objects/map/dots/dotsManager.h
 headers/objects/map/dots/dots.h headers/objects/entity/entity.h headers/objects/entity/pacman.h headers/objects/entity/ghost.h
-headers//objects/collisionManager/collisionManager.h headers/Objects/UI/UI.h headers/objects/UI/UIObject.h)
+headers/objects/collisionManager/collisionManager.h headers/Objects/UI/UI.h headers/objects/UI/UIObject.h)
 include_directories(headers /usr/include C:/SFML/include/SFML)
 
 set(SFML_ROOT C:/SFML)
