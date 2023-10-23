@@ -34,17 +34,17 @@ void EntityManager::setEntity(std::vector<std::string> mapData){
             else if(mapData.at(i)[j] == '1')
             {
                 sf::Vector2<int> temp(j, i);
-                entites.push_back(new Ghost(temp, 1, PACMAN_MOVEMENT));
+                entites.push_back(new Ghost(temp, 1, GHOST_MOVEMENT));
             }
             else if(mapData.at(i)[j] == '2')
             {
                 sf::Vector2<int> temp(j, i);
-                entites.push_back(new Ghost(temp, 2, PACMAN_MOVEMENT));
+                entites.push_back(new Ghost(temp, 2, GHOST_MOVEMENT));
             }
             else if(mapData.at(i)[j] == '3')
             {
                 sf::Vector2<int> temp(j, i);
-                entites.push_back(new Ghost(temp, 3, PACMAN_MOVEMENT));
+                entites.push_back(new Ghost(temp, 3, GHOST_MOVEMENT));
             }
         }
     }

@@ -14,6 +14,7 @@ const int PACMAN_SPEED = 1;
 const std::string TEXTURE_URL = "tiles\\pac man";
 const std::string MAP_URL = "map\\map1.txt";
 const std::string PACMAN_MOVEMENT = "pac man movement.png";
+const std::string GHOST_MOVEMENT = "ghost.png";
 const std::string MAP_TEXTURE = "map.png";
 const std::string PILL_TEXTURE = "pill.png";
 const std::string POWER_PILL_TEXTURE = "power pill.png";

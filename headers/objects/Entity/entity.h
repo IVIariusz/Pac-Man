@@ -5,16 +5,29 @@
 #include "renderer/renderObjectStructure.h"
 #include "settings.h"
 
+struct Flags
+{
+    bool Top;
+    bool Down;
+    bool Right;
+    bool left;
+};
+
+
 class Entity{
     private:
-        sf::Clock AnimationClock;
     protected:
+        sf::Clock AnimationClock;
         renderObjectStructure structureData;
+        Flags Coliderflags, moveFlags;
     public:
         Entity(sf::Vector2<int> pos, int type, std::string tileMapName);
-        void Animate();
         renderObjectStructure getStructure();
+        void setFlags(bool top, bool down, bool right, bool left);
+        Flags getMoveFlags();
+
         virtual void Move();
+        virtual void Animate();
 };
 
 #endif //ENTITY

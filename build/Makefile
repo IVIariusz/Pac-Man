@@ -368,6 +368,30 @@ src/objects/Map/structure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.s
 .PHONY : src/objects/Map/structure.cpp.s
 
+src/objects/collisionManager/collisionManager.obj: src/objects/collisionManager/collisionManager.cpp.obj
+.PHONY : src/objects/collisionManager/collisionManager.obj
+
+# target to build an object file
+src/objects/collisionManager/collisionManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj
+.PHONY : src/objects/collisionManager/collisionManager.cpp.obj
+
+src/objects/collisionManager/collisionManager.i: src/objects/collisionManager/collisionManager.cpp.i
+.PHONY : src/objects/collisionManager/collisionManager.i
+
+# target to preprocess a source file
+src/objects/collisionManager/collisionManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.i
+.PHONY : src/objects/collisionManager/collisionManager.cpp.i
+
+src/objects/collisionManager/collisionManager.s: src/objects/collisionManager/collisionManager.cpp.s
+.PHONY : src/objects/collisionManager/collisionManager.s
+
+# target to generate assembly for a file
+src/objects/collisionManager/collisionManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.s
+.PHONY : src/objects/collisionManager/collisionManager.cpp.s
+
 src/objects/objectManager.obj: src/objects/objectManager.cpp.obj
 .PHONY : src/objects/objectManager.obj
 
@@ -503,6 +527,9 @@ help:
 	@echo ... src/objects/Map/structure.obj
 	@echo ... src/objects/Map/structure.i
 	@echo ... src/objects/Map/structure.s
+	@echo ... src/objects/collisionManager/collisionManager.obj
+	@echo ... src/objects/collisionManager/collisionManager.i
+	@echo ... src/objects/collisionManager/collisionManager.s
 	@echo ... src/objects/objectManager.obj
 	@echo ... src/objects/objectManager.i
 	@echo ... src/objects/objectManager.s

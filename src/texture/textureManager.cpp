@@ -9,6 +9,8 @@ TextureManager::TextureManager(){
     textures.push_back(Pill);
     TextureLoader PowerPIll(POWER_PILL_TEXTURE);
     textures.push_back(PowerPIll);
+    TextureLoader Ghost(GHOST_MOVEMENT);
+    textures.push_back(Ghost);
 }
 
 std::vector<sf::Texture>& TextureManager::getTexturesAtName(std::string name) {

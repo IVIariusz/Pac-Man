@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj"
   "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj.d"
+  "CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj"
+  "CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj"
   "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj.d"
   "CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj"

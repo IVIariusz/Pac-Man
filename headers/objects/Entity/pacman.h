@@ -9,6 +9,7 @@ class PacMan : public Entity {
     public:
         PacMan(sf::Vector2<int> pos, int type, std::string tileMapName) : Entity(pos, type, tileMapName){};
         void Move() override;
+        void Animate() override;
 };
 
 #endif //PACMAN

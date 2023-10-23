@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/Dots/dotsManager.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/mapManager.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/mapManager.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/Map/structure.cpp" "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/Map/structure.cpp.obj.d"
+  "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/collisionManager/collisionManager.cpp" "CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/objects/objectManager.cpp" "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/renderer/renderer.cpp" "CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/renderer/renderer.cpp.obj.d"
   "C:/Users/mwozn/OneDrive/Pulpit/SFML/src/texture/textureLoader.cpp" "CMakeFiles/nibbles.dir/src/texture/textureLoader.cpp.obj" "gcc" "CMakeFiles/nibbles.dir/src/texture/textureLoader.cpp.obj.d"

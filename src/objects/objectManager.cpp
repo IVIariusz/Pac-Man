@@ -1,11 +1,14 @@
 #include "objects/objectManager.h"
 
-objectManager::objectManager() {
+objectManager::objectManager() : managerCollision(managerOfEntities, managerOfMap){
 
 }
 
 std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
+
+    managerCollision.updateFlags();
     managerOfEntities.Update();
+
     std::vector<std::vector<renderObjectStructure>> toReturn;
     std::vector<renderObjectStructure> temp;
     for(int i=0; i < managerOfMap.getMapDataStructure().size(); i++)
@@ -28,8 +31,9 @@ std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
     }
     temp.clear();
     for (int i = 0; i < managerOfEntities.getEntities().size(); i++) {
-        Entity* entity = managerOfEntities.getEntities()[i]; // Get the pointer
-        temp.push_back(entity->getStructure()); // Dereference and call getStructure
+        managerOfEntities.getEntities()[i]->setOffset(8); 
+        Entity* entity = managerOfEntities.getEntities()[i]; 
+        temp.push_back(entity->getStructure()); 
     }
     toReturn.push_back(temp);
 

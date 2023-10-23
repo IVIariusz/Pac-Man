@@ -290,4 +290,5 @@ CMakeFiles/nibbles.dir/src/objects/objectManager.cpp.obj: \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dotsManager.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dots.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dots.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/CollisionManager/collisionManager.h
