@@ -254,4 +254,8 @@ CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/mingw64/include/c++/13.1.0/sstream \
+ C:/mingw64/include/c++/13.1.0/istream \
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h

@@ -1,12 +1,12 @@
 #include "objects/objectManager.h"
 
-objectManager::objectManager() : managerCollision(managerOfEntities, managerOfMap, managerOfDots){
-
+objectManager::objectManager() : managerCollision(managerOfEntities, managerOfMap, managerOfDots, managerUI){
 }
 
 std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
 
     managerCollision.updateFlags();
+    managerCollision.checkDotsCollision();
     managerOfEntities.Update();
 
     std::vector<std::vector<renderObjectStructure>> toReturn;

@@ -1,11 +1,10 @@
 #include "objects/CollisionManager/collisionManager.h"
 
-CollisionManager::CollisionManager(EntityManager& entities, MapManager& map, DotsManager& dots) : entities(entities), map(map), dots(dots){
+CollisionManager::CollisionManager(EntityManager& entities, MapManager& map, DotsManager& dots, UIManger& ui) : entities(entities), map(map), dots(dots), ui(ui){
 
 }
 
 void CollisionManager::updateFlags(){
-
     bool top, bottom, right, left;
 
     for (int i = 0; i < entities.getEntities().size(); i++) {
@@ -38,7 +37,23 @@ void CollisionManager::updateFlags(){
         if(map.getMapDataStructure()[y].at(x + 1).returnObjectStructure().textureId == 15) right = false;
         if(map.getMapDataStructure()[y].at(x - 1).returnObjectStructure().textureId == 15) left = false;
 
-
         entity->setFlags(top, bottom, right, left);
     }
+}
+
+void CollisionManager::checkDotsCollision(){
+    std::vector<std::vector<Dots>> DotsData = dots.getDotStructure();
+
+    Entity* entity = entities.getEntities()[0]; 
+    int x = (entity->getStructure().sprite.getPosition().x) / NORMAL_TILE_SIZE;
+    int y = (entity->getStructure().sprite.getPosition().y) / NORMAL_TILE_SIZE;
+
+    if(!DotsData[y].at(x).getTakenState()) {
+        if(DotsData[y].at(x).returnStructure().nameOfTileMap == POWER_PILL_TEXTURE) ui.addScore(20);
+        else {
+            ui.addScore(10);
+        } 
+        dots.upDateDotAt(x, y);
+    } 
+
 }

@@ -1807,6 +1807,7 @@ CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj: C:/Users/mwozn/OneDriv
   C:/mingw64/include/c++/13.1.0/bits/hash_bytes.h \
   C:/mingw64/include/c++/13.1.0/bits/invoke.h \
   C:/mingw64/include/c++/13.1.0/bits/ios_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/iterator_concepts.h \
   C:/mingw64/include/c++/13.1.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.1.0/bits/locale_classes.tcc \
@@ -1886,6 +1887,8 @@ CMakeFiles/nibbles.dir/src/objects/Map/Dots/dots.cpp.obj: C:/Users/mwozn/OneDriv
   C:/mingw64/include/c++/13.1.0/initializer_list \
   C:/mingw64/include/c++/13.1.0/ios \
   C:/mingw64/include/c++/13.1.0/iosfwd \
+  C:/mingw64/include/c++/13.1.0/iostream \
+  C:/mingw64/include/c++/13.1.0/istream \
   C:/mingw64/include/c++/13.1.0/iterator \
   C:/mingw64/include/c++/13.1.0/locale \
   C:/mingw64/include/c++/13.1.0/map \
@@ -2170,6 +2173,7 @@ CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj: C:/Users/mwozn/
   C:/mingw64/include/c++/13.1.0/iomanip \
   C:/mingw64/include/c++/13.1.0/ios \
   C:/mingw64/include/c++/13.1.0/iosfwd \
+  C:/mingw64/include/c++/13.1.0/iostream \
   C:/mingw64/include/c++/13.1.0/istream \
   C:/mingw64/include/c++/13.1.0/iterator \
   C:/mingw64/include/c++/13.1.0/limits \
@@ -2912,6 +2916,7 @@ CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit
   C:/mingw64/include/c++/13.1.0/bits/hash_bytes.h \
   C:/mingw64/include/c++/13.1.0/bits/invoke.h \
   C:/mingw64/include/c++/13.1.0/bits/ios_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/iterator_concepts.h \
   C:/mingw64/include/c++/13.1.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.1.0/bits/locale_classes.tcc \
@@ -2941,6 +2946,7 @@ CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit
   C:/mingw64/include/c++/13.1.0/bits/ranges_util.h \
   C:/mingw64/include/c++/13.1.0/bits/refwrap.h \
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
+  C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algobase.h \
@@ -2991,6 +2997,8 @@ CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit
   C:/mingw64/include/c++/13.1.0/initializer_list \
   C:/mingw64/include/c++/13.1.0/ios \
   C:/mingw64/include/c++/13.1.0/iosfwd \
+  C:/mingw64/include/c++/13.1.0/iostream \
+  C:/mingw64/include/c++/13.1.0/istream \
   C:/mingw64/include/c++/13.1.0/iterator \
   C:/mingw64/include/c++/13.1.0/locale \
   C:/mingw64/include/c++/13.1.0/map \
@@ -3000,6 +3008,7 @@ CMakeFiles/nibbles.dir/src/objects/UI/UI.cpp.obj: C:/Users/mwozn/OneDrive/Pulpit
   C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
   C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
   C:/mingw64/include/c++/13.1.0/pstl/pstl_config.h \
+  C:/mingw64/include/c++/13.1.0/sstream \
   C:/mingw64/include/c++/13.1.0/stdexcept \
   C:/mingw64/include/c++/13.1.0/stdlib.h \
   C:/mingw64/include/c++/13.1.0/streambuf \
@@ -3173,6 +3182,7 @@ CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: C:/Users/mwozn/OneDrive/
   C:/mingw64/include/c++/13.1.0/bits/hash_bytes.h \
   C:/mingw64/include/c++/13.1.0/bits/invoke.h \
   C:/mingw64/include/c++/13.1.0/bits/ios_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/iterator_concepts.h \
   C:/mingw64/include/c++/13.1.0/bits/locale_classes.h \
   C:/mingw64/include/c++/13.1.0/bits/locale_classes.tcc \
@@ -3202,6 +3212,7 @@ CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: C:/Users/mwozn/OneDrive/
   C:/mingw64/include/c++/13.1.0/bits/ranges_util.h \
   C:/mingw64/include/c++/13.1.0/bits/refwrap.h \
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
+  C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algobase.h \
@@ -3252,6 +3263,7 @@ CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: C:/Users/mwozn/OneDrive/
   C:/mingw64/include/c++/13.1.0/initializer_list \
   C:/mingw64/include/c++/13.1.0/ios \
   C:/mingw64/include/c++/13.1.0/iosfwd \
+  C:/mingw64/include/c++/13.1.0/istream \
   C:/mingw64/include/c++/13.1.0/iterator \
   C:/mingw64/include/c++/13.1.0/locale \
   C:/mingw64/include/c++/13.1.0/map \
@@ -3261,6 +3273,7 @@ CMakeFiles/nibbles.dir/src/objects/UI/UIObject.cpp.obj: C:/Users/mwozn/OneDrive/
   C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
   C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
   C:/mingw64/include/c++/13.1.0/pstl/pstl_config.h \
+  C:/mingw64/include/c++/13.1.0/sstream \
   C:/mingw64/include/c++/13.1.0/stdexcept \
   C:/mingw64/include/c++/13.1.0/stdlib.h \
   C:/mingw64/include/c++/13.1.0/streambuf \
@@ -3415,6 +3428,8 @@ CMakeFiles/nibbles.dir/src/objects/collisionManager/collisionManager.cpp.obj: C:
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dotsManager.h \
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/mapManager.h \
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/structure.h \
+  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/UI/UI.h \
+  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/UI/UIObject.h \
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
   C:/mingw64/include/c++/13.1.0/algorithm \

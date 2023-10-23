@@ -281,5 +281,6 @@ CMakeFiles/nibbles.dir/src/objects/Map/Dots/dotsManager.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Map/Dots/dots.h \
+ C:/mingw64/include/c++/13.1.0/iostream \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h

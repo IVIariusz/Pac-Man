@@ -18,6 +18,7 @@ const std::string GHOST_MOVEMENT = "ghost.png";
 const std::string MAP_TEXTURE = "map.png";
 const std::string PILL_TEXTURE = "pill.png";
 const std::string POWER_PILL_TEXTURE = "power pill.png";
+const std::string PACMAN_DEATH = "pac man death.png";
 const std::string FONT = "font\\Emulogic-zrEw.ttf";
 
 #endif //SETTINGS

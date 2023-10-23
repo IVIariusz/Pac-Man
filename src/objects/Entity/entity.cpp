@@ -38,3 +38,8 @@ renderObjectStructure Entity::getStructure(){
 void Entity::Move(){
 
 }
+
+void Entity::setAnimationType(int n)
+{
+    animationType = n;
+}

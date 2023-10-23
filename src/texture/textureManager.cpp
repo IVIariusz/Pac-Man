@@ -11,6 +11,8 @@ TextureManager::TextureManager(){
     textures.push_back(PowerPIll);
     TextureLoader Ghost(GHOST_MOVEMENT);
     textures.push_back(Ghost);
+    TextureLoader PacmanDeath(PACMAN_DEATH);
+    textures.push_back(PacmanDeath);
 }
 
 std::vector<sf::Texture>& TextureManager::getTexturesAtName(std::string name) {

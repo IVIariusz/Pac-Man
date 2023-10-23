@@ -20,11 +20,13 @@ class Entity{
         sf::Clock AnimationClock;
         renderObjectStructure structureData;
         Flags Coliderflags, moveFlags;
+        int animationType;
     public:
         Entity(sf::Vector2<int> pos, int type, std::string tileMapName);
         renderObjectStructure getStructure();
         void setFlags(bool top, bool down, bool right, bool left);
         Flags getMoveFlags();
+        void setAnimationType(int n);
 
         virtual void Move();
         virtual void Animate();

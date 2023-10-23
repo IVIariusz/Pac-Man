@@ -1,8 +1,11 @@
 #include "objects/UI/UIObject.h"
 
-UIObject::UIObject(sf::Vector2<int> pos, std::string value) {
+UIObject::UIObject(sf::Vector2<int> pos, int value) {
     structureUIDataElement.nameOfTileMap = "";
-    structureUIDataElement.value = value;
+    std::ostringstream tempValue;
+    tempValue << value << " pkt";
+    std::string tekst = tempValue.str();
+    structureUIDataElement.value = tekst;
     sf::Sprite temp;
     temp.setPosition(pos.x, pos.y);
     structureUIDataElement.sprite = temp;
@@ -10,4 +13,18 @@ UIObject::UIObject(sf::Vector2<int> pos, std::string value) {
 
 renderObjectStructure UIObject::getStructureUI(){
     return structureUIDataElement;
+}
+
+void UIObject::setScore(int _score)
+{
+    score = _score;
+    std::ostringstream tempValue;
+    tempValue << score << " pkt";
+    std::string tekst = tempValue.str();
+
+    structureUIDataElement.value =  tempValue.str();
+}
+
+int UIObject::getScore(){
+    return score;
 }

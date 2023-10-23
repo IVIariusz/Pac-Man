@@ -41,6 +41,12 @@ void DotsManager::SetDots(std::vector<std::string> mapData) {
                 Dots mapStructure(temp, 2);
                 lineofDots.push_back(mapStructure);
             }
+            else
+            {
+                sf::Vector2<int> temp(j, i);
+                Dots mapStructure(temp, 3);
+                lineofDots.push_back(mapStructure);           
+            }
         }
         dotsDataStructure.push_back(lineofDots);
     }
@@ -48,4 +54,8 @@ void DotsManager::SetDots(std::vector<std::string> mapData) {
 
 std::vector<std::vector<Dots>>& DotsManager::getDotStructure(){
     return dotsDataStructure;
+}
+
+void DotsManager::upDateDotAt(int x, int y){
+    dotsDataStructure[y][x].setTaken();
 }

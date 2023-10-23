@@ -30,6 +30,7 @@ void EntityManager::setEntity(std::vector<std::string> mapData){
             {
                 sf::Vector2<int> temp(j, i);
                 entites.push_back(new PacMan(temp, 0, PACMAN_MOVEMENT));
+                entites[0]->setAnimationType(1);
             }
             else if(mapData.at(i)[j] == '1')
             {
