@@ -1293,6 +1293,7 @@ CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj: C:/Users/mwozn/OneDrive
   C:/SFML/include/SFML/Window/WindowStyle.hpp \
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/entity.h \
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/ghost.h \
+  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/pacman.h \
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
   C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
   C:/mingw64/include/c++/13.1.0/algorithm \

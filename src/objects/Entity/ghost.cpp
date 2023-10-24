@@ -3,7 +3,7 @@ float Calculate(int x1, int x2, int y1, int y2);
 bool compareByValue(const float& a, const float& b);
 
 
-Ghost::Ghost(sf::Vector2<int> pos, int type, std::string tileMapName) : Entity(pos, type, tileMapName), _type(type) {
+Ghost::Ghost(sf::Vector2<int> pos, int type, std::string tileMapName, Entity* pacman) : Entity(pos, type, tileMapName), _type(type), pacman(pacman){
     structureData.textureId = 24 + _type;
     direction = 0;
 }
@@ -13,21 +13,21 @@ void Ghost::Move() {
     switch (direction)
     {
     case 1:
-        structureData.sprite.move(0, -PACMAN_SPEED);
+        structureData.sprite.move(0, -PACMAN_SPEED* 0.7);
         moveFlags.Top = true;
         std::cout << "b";
         break;
     case 2:
-        structureData.sprite.move(0, PACMAN_SPEED);
+        structureData.sprite.move(0, PACMAN_SPEED* 0.7);
         moveFlags.Down = true;
         std::cout << "a";
         break;
     case 3:
-        structureData.sprite.move(-PACMAN_SPEED, 0);
+        structureData.sprite.move(-PACMAN_SPEED* 0.7, 0);
         moveFlags.left = true;
         break;
     case 4:
-        structureData.sprite.move(PACMAN_SPEED, 0);
+        structureData.sprite.move(PACMAN_SPEED * 0.7, 0);
         moveFlags.Right = true;
         break;
     
@@ -51,8 +51,8 @@ void Ghost::CalculateDirectionToMove() {
     int x = structureData.sprite.getPosition().x;
     int y = structureData.sprite.getPosition().y;
 
-    int targetX = 1000;
-    int targetY = 1000;
+    int targetX = pacman->getStructure().sprite.getPosition().x;
+    int targetY = pacman->getStructure().sprite.getPosition().y;
 
     std::cout << "  " << std::endl;
     float top = Calculate(x, targetX, y - NORMAL_TILE_SIZE, targetY);

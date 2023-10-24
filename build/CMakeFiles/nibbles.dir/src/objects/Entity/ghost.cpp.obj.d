@@ -275,4 +275,5 @@ CMakeFiles/nibbles.dir/src/objects/Entity/ghost.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/istream \
  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
  C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/renderer/renderObjectStructure.h \
- C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/settings.h \
+ C:/Users/mwozn/OneDrive/Pulpit/SFML/headers/objects/Entity/pacman.h
