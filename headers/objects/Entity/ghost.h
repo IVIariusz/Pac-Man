@@ -12,6 +12,8 @@ class Ghost : public Entity {
         int _type;
         int direction;
         Entity* pacman;
+        int targetX, targetY;
+        bool chase;
     public:
         Ghost(sf::Vector2<int> pos, int type, std::string tileMapName, Entity* pacman);
         void Move() override;
@@ -19,6 +21,8 @@ class Ghost : public Entity {
         void Animate() override;
         void setDirection(int n);
         bool returnFlagAt(int n);
+        void setTarget(int x, int y);
+        void setChase() override;
 
         void CalculateDirectionToMove();
 };

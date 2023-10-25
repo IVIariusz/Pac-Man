@@ -6,6 +6,27 @@ bool compareByValue(const float& a, const float& b);
 Ghost::Ghost(sf::Vector2<int> pos, int type, std::string tileMapName, Entity* pacman) : Entity(pos, type, tileMapName), _type(type), pacman(pacman){
     structureData.textureId = 24 + _type;
     direction = 0;
+
+    if(type == 1)
+    {
+        targetX = 0;
+        targetY = 0;
+    }
+    if(type == 2)
+    {
+        targetX = 672;
+        targetY = 672;
+    }
+    if(type == 3)
+    {
+        targetX = 0;
+        targetY = 672;
+    }
+    if(type == 4)
+    {
+        targetX = 672;
+        targetY = 0;
+    }
 }
 
 void Ghost::Move() {
@@ -15,12 +36,10 @@ void Ghost::Move() {
     case 1:
         structureData.sprite.move(0, -PACMAN_SPEED* 0.7);
         moveFlags.Top = true;
-        std::cout << "b";
         break;
     case 2:
         structureData.sprite.move(0, PACMAN_SPEED* 0.7);
         moveFlags.Down = true;
-        std::cout << "a";
         break;
     case 3:
         structureData.sprite.move(-PACMAN_SPEED* 0.7, 0);
@@ -37,6 +56,12 @@ void Ghost::Move() {
     }
 }
 
+void Ghost::setTarget(int x, int y)
+{
+    targetX = x;
+    targetY = y;
+}
+
 void Ghost::Move2(int direction){
 
 }
@@ -46,15 +71,11 @@ void Ghost::Animate(){
 }
 
 void Ghost::CalculateDirectionToMove() {
-    int noDirection;
-
     int x = structureData.sprite.getPosition().x;
     int y = structureData.sprite.getPosition().y;
 
-    int targetX = pacman->getStructure().sprite.getPosition().x;
-    int targetY = pacman->getStructure().sprite.getPosition().y;
+    if(chase) setTarget(pacman->getStructure().sprite.getPosition().x, pacman->getStructure().sprite.getPosition().y);
 
-    std::cout << "  " << std::endl;
     float top = Calculate(x, targetX, y - NORMAL_TILE_SIZE, targetY);
     float bottom = Calculate(x, targetX, y + NORMAL_TILE_SIZE, targetY);
     float left = Calculate(x - NORMAL_TILE_SIZE, targetX, y, targetY);
@@ -68,7 +89,13 @@ void Ghost::CalculateDirectionToMove() {
     });
 
      for (int index : indeksy) {
-        if (returnFlagAt(index) == true) {
+        int dir;
+        if(direction == 1) dir = 2;
+        if(direction == 2) dir = 1;
+        if(direction == 3) dir = 4;
+        if(direction == 4) dir = 3;
+
+        if (returnFlagAt(index) == true && index!=dir) {
             std::cout << index << " ";
             direction = index;
             break;
@@ -97,4 +124,8 @@ float Calculate(int x1, int x2, int y1, int y2)
     float dy = y2 - y1;
     std::cout << std::abs(std::sqrt(dx * dx + dy * dy)) << std::endl;
     return std::abs(std::sqrt(dx * dx + dy * dy));
+}
+
+void Ghost::setChase(){
+    chase = true;
 }

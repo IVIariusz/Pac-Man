@@ -31,6 +31,7 @@ class Entity{
         Flags getColiderflags();
         virtual void Move();
         virtual void Animate();
+        virtual void setChase();
 };
 
 #endif //ENTITY

@@ -39,6 +39,10 @@ void Entity::Move(){
 
 }
 
+void Entity::setChase() {
+    
+}
+
 void Entity::setAnimationType(int n)
 {
     animationType = n;

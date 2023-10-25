@@ -47,6 +47,11 @@ void EntityManager::setEntity(std::vector<std::string> mapData){
                 sf::Vector2<int> temp(j, i);
                 entites.push_back(new Ghost(temp, 3, GHOST_MOVEMENT, entites[0]));
             }
+            // else if(mapData.at(i)[j] == '4')
+            // {
+            //     sf::Vector2<int> temp(j, i);
+            //     entites.push_back(new Ghost(temp, 4, GHOST_MOVEMENT, entites[0]));
+            // }
         }
     }
 }

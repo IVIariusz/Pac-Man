@@ -6,6 +6,8 @@ CollisionManager::CollisionManager(EntityManager& entities, MapManager& map, Dot
 
 void CollisionManager::updateFlags(){
     bool top, bottom, right, left;
+    int x = entities.getEntities()[0]->getStructure().sprite.getPosition().x;
+    int y = entities.getEntities()[0]->getStructure().sprite.getPosition().y;
 
     for (int i = 0; i < entities.getEntities().size(); i++) {
         top = true, bottom = true, right = true, left = true;
@@ -48,10 +50,18 @@ void CollisionManager::updateFlags(){
             if(map.getMapDataStructure()[y +1].at(x).returnObjectStructure().textureId == 15) bottom = false;
         }
 
-        
-
         entity->setFlags(top, bottom, right, left);
     }
+    for(int i = 1; i < entities.getEntities().size(); i++)
+    {
+        int xE = entities.getEntities().at(i)->getStructure().sprite.getPosition().x;
+        int yE = entities.getEntities().at(i)->getStructure().sprite.getPosition().y;
+        if(sqrt((x - xE)^2 + (y - yE)^2) <= 8)
+        {
+            entities.getEntities().at(i)->setChase();
+        }
+    }
+
 }
 
 void CollisionManager::checkDotsCollision(){
