@@ -39,11 +39,20 @@ void Entity::Move(){
 
 }
 
-void Entity::setChase() {
+void Entity::setChase(bool flag) {
     
 }
 
 void Entity::setAnimationType(int n)
 {
     animationType = n;
+}
+
+void Entity::Die(){
+
+}
+
+bool Entity::returnDie()
+{
+    return die;
 }

@@ -22,6 +22,7 @@ class Entity{
         Flags Coliderflags, moveFlags;
         int animationType;
         int direction;
+        bool die;
     public:
         Entity(sf::Vector2<int> pos, int type, std::string tileMapName);
         renderObjectStructure getStructure();
@@ -31,7 +32,9 @@ class Entity{
         Flags getColiderflags();
         virtual void Move();
         virtual void Animate();
-        virtual void setChase();
+        virtual void setChase(bool flag);
+        virtual void Die();
+        bool returnDie();
 };
 
 #endif //ENTITY

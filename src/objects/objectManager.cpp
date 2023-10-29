@@ -43,5 +43,14 @@ std::vector<std::vector<renderObjectStructure>> objectManager::getObjects(){
     }
     toReturn.push_back(temp);
 
+    if(managerOfEntities.getEntities().at(0)->returnDie() == true)
+    {
+        isGoing = false;
+    }
     return toReturn;
+}
+
+bool objectManager::returnGoing()
+{
+    return isGoing;
 }

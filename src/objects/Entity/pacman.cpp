@@ -41,6 +41,26 @@ void PacMan::Animate(){
             structureData.textureId += 1;
             if(structureData.textureId > ENTITY_ANIMATION_LENGTH) structureData.textureId = 0;
         }
+        if(animationType == 2)
+        {
+            structureData.nameOfTileMap = PACMAN_DEATH;   
+            structureData.textureId += 1;
+            if(structureData.textureId > 2){
+                die = true;
+                structureData.textureId = 0;
+            }
+        }
         AnimationClock.restart();
     }
+
+    if(killerModeClock.getElapsedTime().asMilliseconds() >= KILLING_TIME * 1000) setChase(false);
+}
+
+void PacMan::setChase(bool flag){
+    killerMode = flag;
+    killerModeClock.restart();
+}
+
+void PacMan::Die() {
+    animationType = 2;
 }

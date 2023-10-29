@@ -21,8 +21,9 @@ class Ghost : public Entity {
         void Animate() override;
         void setDirection(int n);
         bool returnFlagAt(int n);
-        void setTarget(int x, int y);
-        void setChase() override;
+        void setTarget();
+        void setChase(bool flag) override;
+        void Die() override;
 
         void CalculateDirectionToMove();
 };

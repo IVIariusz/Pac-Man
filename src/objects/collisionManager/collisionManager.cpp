@@ -8,6 +8,8 @@ void CollisionManager::updateFlags(){
     bool top, bottom, right, left;
     int x = entities.getEntities()[0]->getStructure().sprite.getPosition().x;
     int y = entities.getEntities()[0]->getStructure().sprite.getPosition().y;
+    int PacManPosX = x / 32;
+    int PacManPosY = y / 32;
 
     for (int i = 0; i < entities.getEntities().size(); i++) {
         top = true, bottom = true, right = true, left = true;
@@ -49,18 +51,13 @@ void CollisionManager::updateFlags(){
             x = (entity->getStructure().sprite.getPosition().x + 8) / NORMAL_TILE_SIZE;
             if(map.getMapDataStructure()[y +1].at(x).returnObjectStructure().textureId == 15) bottom = false;
         }
-
         entity->setFlags(top, bottom, right, left);
+
+        if(PacManPosX == x && PacManPosY == y && i != 0) entities.getEntities()[0]->Die();
+
+
     }
-    for(int i = 1; i < entities.getEntities().size(); i++)
-    {
-        int xE = entities.getEntities().at(i)->getStructure().sprite.getPosition().x;
-        int yE = entities.getEntities().at(i)->getStructure().sprite.getPosition().y;
-        if(sqrt((x - xE)^2 + (y - yE)^2) <= 8)
-        {
-            entities.getEntities().at(i)->setChase();
-        }
-    }
+
 
 }
 

@@ -7,26 +7,7 @@ Ghost::Ghost(sf::Vector2<int> pos, int type, std::string tileMapName, Entity* pa
     structureData.textureId = 24 + _type;
     direction = 0;
 
-    if(type == 1)
-    {
-        targetX = 0;
-        targetY = 0;
-    }
-    if(type == 2)
-    {
-        targetX = 672;
-        targetY = 672;
-    }
-    if(type == 3)
-    {
-        targetX = 0;
-        targetY = 672;
-    }
-    if(type == 4)
-    {
-        targetX = 672;
-        targetY = 0;
-    }
+    setTarget();
 }
 
 void Ghost::Move() {
@@ -56,10 +37,61 @@ void Ghost::Move() {
     }
 }
 
-void Ghost::setTarget(int x, int y)
+void Ghost::setTarget()
 {
-    targetX = x;
-    targetY = y;
+    if(!chase)
+    {
+        switch (_type)
+        {
+        case 1:
+            targetX = 0;
+            targetY = 0;
+            break;
+        case 2:
+            targetX = 672;
+            targetY = 672;
+            break;
+        case 3:
+            targetX = 0;
+            targetY = 672;
+            break;
+        case 4:
+            targetX = 672;
+            targetY = 0;
+            break;
+        default:
+            break;
+        }
+    }
+    else if(chase)
+    {
+        int x = pacman->getStructure().sprite.getPosition().x;
+        int y = pacman->getStructure().sprite.getPosition().y;
+        targetX = x;
+        targetY = y;
+
+        switch (_type)
+        {
+        case 1:
+            targetX = 0;
+            targetY = 0;
+            break;
+        case 2:
+            targetX = 672;
+            targetY = 672;
+            break;
+        case 3:
+            targetX = 0;
+            targetY = 672;
+            break;
+        case 4:
+            targetX = 672;
+            targetY = 0;
+            break;
+        default:
+            break;
+        }
+    }
 }
 
 void Ghost::Move2(int direction){
@@ -73,8 +105,6 @@ void Ghost::Animate(){
 void Ghost::CalculateDirectionToMove() {
     int x = structureData.sprite.getPosition().x;
     int y = structureData.sprite.getPosition().y;
-
-    if(chase) setTarget(pacman->getStructure().sprite.getPosition().x, pacman->getStructure().sprite.getPosition().y);
 
     float top = Calculate(x, targetX, y - NORMAL_TILE_SIZE, targetY);
     float bottom = Calculate(x, targetX, y + NORMAL_TILE_SIZE, targetY);
@@ -96,7 +126,6 @@ void Ghost::CalculateDirectionToMove() {
         if(direction == 4) dir = 3;
 
         if (returnFlagAt(index) == true && index!=dir) {
-            std::cout << index << " ";
             direction = index;
             break;
         }
@@ -122,10 +151,14 @@ float Calculate(int x1, int x2, int y1, int y2)
 {
     float dx = x2 - x1;
     float dy = y2 - y1;
-    std::cout << std::abs(std::sqrt(dx * dx + dy * dy)) << std::endl;
     return std::abs(std::sqrt(dx * dx + dy * dy));
 }
 
-void Ghost::setChase(){
-    chase = true;
+void Ghost::setChase(bool flag){
+    chase = flag;
+    setTarget();
+}
+
+void Ghost::Die() {
+    
 }

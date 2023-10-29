@@ -17,9 +17,11 @@ class objectManager{
         DotsManager managerOfDots;
         CollisionManager managerCollision;
         UIManger managerUI;
+        bool isGoing;
     public:
         objectManager();
         std::vector<std::vector<renderObjectStructure>> getObjects();
+        bool returnGoing();
 };
 
 #endif //OBJECTMANAGER

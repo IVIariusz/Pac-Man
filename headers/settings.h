@@ -10,6 +10,7 @@ const int NORMAL_TILE_SIZE = 32;
 const int ENTITY_ANIMATION_LENGTH = 4;
 const int ANIMATION_SPEED = 100;
 const int PACMAN_SPEED = 5;
+const int KILLING_TIME = 5;
 
 const std::string TEXTURE_URL = "tiles\\pac man";
 const std::string MAP_URL = "map\\map1.txt";

@@ -19,5 +19,7 @@ void Game::Run() {
         GameWindow.clear();
         GameRenderer.Render(ManagerOfObjects.getObjects());
         GameWindow.display();
+
+        if(ManagerOfObjects.returnGoing() == false) break;
     }
 }

@@ -32,7 +32,13 @@ void EntityManager::setEntity(std::vector<std::string> mapData){
                 entites.push_back(new PacMan(temp, 0, PACMAN_MOVEMENT));
                 entites[0]->setAnimationType(1);
             }
-            else if(mapData.at(i)[j] == '1')
+        }
+    }
+    for(int i = 0; i < mapData.size(); i++)
+    {
+        for(int j = 0; j < mapData.at(i).length(); j++)
+        {
+            if(mapData.at(i)[j] == '1')
             {
                 sf::Vector2<int> temp(j, i);
                 entites.push_back(new Ghost(temp, 1, GHOST_MOVEMENT, entites[0]));
@@ -47,13 +53,14 @@ void EntityManager::setEntity(std::vector<std::string> mapData){
                 sf::Vector2<int> temp(j, i);
                 entites.push_back(new Ghost(temp, 3, GHOST_MOVEMENT, entites[0]));
             }
-            // else if(mapData.at(i)[j] == '4')
-            // {
-            //     sf::Vector2<int> temp(j, i);
-            //     entites.push_back(new Ghost(temp, 4, GHOST_MOVEMENT, entites[0]));
-            // }
+            else if(mapData.at(i)[j] == '4')
+            {
+                sf::Vector2<int> temp(j, i);
+                entites.push_back(new Ghost(temp, 4, GHOST_MOVEMENT, entites[0]));
+            }
         }
     }
+
 }
 
 void EntityManager::Update(){
