@@ -20,6 +20,6 @@ void Game::Run() {
         GameRenderer.Render(ManagerOfObjects.getObjects());
         GameWindow.display();
 
-        if(ManagerOfObjects.returnGoing() == false) break;
+        // if(ManagerOfObjects.returnGoing() == false) break;
     }
 }

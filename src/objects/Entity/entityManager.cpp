@@ -65,6 +65,23 @@ void EntityManager::setEntity(std::vector<std::string> mapData){
 
 void EntityManager::Update(){
 
+    if(time.getElapsedTime().asSeconds() >= SCATTER_TIME && entites.at(2)->getChase() == false)
+    {
+        for(int i=1; i<entites.size(); i++)
+        {
+            entites[i]->setChase(true);
+        }
+        time.restart();
+    }
+    else if(time.getElapsedTime().asSeconds() >= CHASE_TIME && entites.at(2)->getChase() == true)
+    {
+        for(int i=1; i<entites.size(); i++)
+        {
+            entites[i]->setChase(false);
+        } 
+        time.restart();
+    }
+
     for(int i=0; i<entites.size(); i++)
     {
         entites[i]->Move();

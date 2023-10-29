@@ -23,6 +23,7 @@ class Entity{
         int animationType;
         int direction;
         bool die;
+        bool chase;
     public:
         Entity(sf::Vector2<int> pos, int type, std::string tileMapName);
         renderObjectStructure getStructure();
@@ -35,6 +36,8 @@ class Entity{
         virtual void setChase(bool flag);
         virtual void Die();
         bool returnDie();
+        int getDirection();
+        bool getChase();
 };
 
 #endif //ENTITY

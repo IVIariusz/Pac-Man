@@ -13,6 +13,8 @@ Entity::Entity(sf::Vector2<int> pos, int type, std::string tileMapName){
     Coliderflags.Right = false;
     Coliderflags.left = false;
     structureData.sprite.setOrigin(structureData.sprite.getLocalBounds().width / 2 + 16, structureData.sprite.getLocalBounds().height / 2 + 16);
+    die = false;
+    direction = 1;
 }
 
 void Entity::setFlags(bool top, bool down, bool right, bool left)
@@ -55,4 +57,13 @@ void Entity::Die(){
 bool Entity::returnDie()
 {
     return die;
+}
+
+int Entity::getDirection(){
+    return direction;
+}
+
+bool Entity::getChase()
+{
+    return chase;
 }

@@ -4,27 +4,31 @@ void PacMan::Move() {
     if (movementClock.getElapsedTime().asMilliseconds() >= PACMAN_SPEED) {
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) && Coliderflags.left) {
             structureData.sprite.move(-PACMAN_SPEED, 0);
-            structureData.sprite.setRotation(180); // Obróć sprite
+            structureData.sprite.setRotation(180); 
             moveFlags.left = true;
             moveFlags.Right = false;
+            direction = 3;
         }
         else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) && Coliderflags.Right) {
             structureData.sprite.move(PACMAN_SPEED, 0);
-            structureData.sprite.setRotation(0); // Obróć sprite
+            structureData.sprite.setRotation(0); 
             moveFlags.Right = true;
             moveFlags.left = false;
+            direction = 4;
         }
         else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && Coliderflags.Top) {
             structureData.sprite.move(0, - PACMAN_SPEED);
-            structureData.sprite.setRotation(270); // Obróć sprite
+            structureData.sprite.setRotation(270); 
             moveFlags.Top = true;
             moveFlags.Down = false;
+            direction = 1;
         }
         else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) && Coliderflags.Down) {
             structureData.sprite.move(0, PACMAN_SPEED);
-            structureData.sprite.setRotation(90); // Obróć sprite
+            structureData.sprite.setRotation(90); 
             moveFlags.Down = true;
             moveFlags.Top = false;
+            direction = 2;
         }
 
         movementClock.restart();
@@ -62,5 +66,6 @@ void PacMan::setChase(bool flag){
 }
 
 void PacMan::Die() {
+    structureData.textureId == 0;
     animationType = 2;
 }

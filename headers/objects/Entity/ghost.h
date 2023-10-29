@@ -24,6 +24,7 @@ class Ghost : public Entity {
         void setTarget();
         void setChase(bool flag) override;
         void Die() override;
+        
 
         void CalculateDirectionToMove();
 };

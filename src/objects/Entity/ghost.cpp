@@ -11,6 +11,7 @@ Ghost::Ghost(sf::Vector2<int> pos, int type, std::string tileMapName, Entity* pa
 }
 
 void Ghost::Move() {
+    setTarget();
     CalculateDirectionToMove();
     switch (direction)
     {
@@ -67,22 +68,36 @@ void Ghost::setTarget()
     {
         int x = pacman->getStructure().sprite.getPosition().x;
         int y = pacman->getStructure().sprite.getPosition().y;
-        targetX = x;
-        targetY = y;
+        int direction = pacman->getDirection();
+        int xdir = 0;
+        int ydir = 0;
+
+        std::cout << direction;
+
+        if(direction == 1) ydir = -1;
+        else if(direction == 2) ydir = 1;
+        else if(direction == 3) xdir = -1;
+        else if(direction == 4) xdir = 1;
 
         switch (_type)
         {
         case 1:
-            targetX = 0;
-            targetY = 0;
+            targetX = x;
+            targetY = y;
             break;
         case 2:
-            targetX = 672;
-            targetY = 672;
+            targetX = x + 64*xdir;
+            targetY = y + 32*ydir;
             break;
         case 3:
-            targetX = 0;
-            targetY = 672;
+            if (sqrt((x - this->getStructure().sprite.getPosition().x) * (x - this->getStructure().sprite.getPosition().x) + (y - this->getStructure().sprite.getPosition().y) * (y - this->getStructure().sprite.getPosition().y)) <= 8 * 32) {
+                targetX = x;
+                targetY = y;
+            }
+            else {
+                targetX = x - 64*xdir;
+                targetY = y - 32*ydir;
+            }
             break;
         case 4:
             targetX = 672;

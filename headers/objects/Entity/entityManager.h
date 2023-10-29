@@ -12,6 +12,7 @@
 class EntityManager {
     private:
         std::vector<Entity*> entites;
+        sf::Clock time;
     public: 
         EntityManager();
         void setEntity(std::vector<std::string> mapData);
