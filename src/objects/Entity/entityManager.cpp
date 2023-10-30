@@ -70,6 +70,7 @@ void EntityManager::Update(){
         for(int i=1; i<entites.size(); i++)
         {
             entites[i]->setChase(true);
+            entites[i]->setTarget(entites[3]->getStructure().sprite.getPosition().x, entites[3]->getStructure().sprite.getPosition().y);
         }
         time.restart();
     }

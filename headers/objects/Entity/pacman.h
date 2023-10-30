@@ -14,6 +14,7 @@ class PacMan : public Entity {
         void Animate() override;
         void setChase(bool flag) override;
         void Die() override;
+        bool getChase() override;
 };
 
 #endif //PACMAN

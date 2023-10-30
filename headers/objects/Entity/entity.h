@@ -35,9 +35,10 @@ class Entity{
         virtual void Animate();
         virtual void setChase(bool flag);
         virtual void Die();
+        virtual void setTarget(int x, int y);
         bool returnDie();
         int getDirection();
-        bool getChase();
+        virtual bool getChase();
 };
 
 #endif //ENTITY

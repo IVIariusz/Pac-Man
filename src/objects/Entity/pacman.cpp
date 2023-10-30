@@ -57,7 +57,9 @@ void PacMan::Animate(){
         AnimationClock.restart();
     }
 
-    if(killerModeClock.getElapsedTime().asMilliseconds() >= KILLING_TIME * 1000) setChase(false);
+    if(killerModeClock.getElapsedTime().asMilliseconds() >= KILLING_TIME * 1000) {
+        setChase(false);
+    } 
 }
 
 void PacMan::setChase(bool flag){
@@ -68,4 +70,8 @@ void PacMan::setChase(bool flag){
 void PacMan::Die() {
     structureData.textureId == 0;
     animationType = 2;
+}
+
+bool PacMan::getChase(){
+    return killerMode;
 }

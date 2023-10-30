@@ -54,6 +54,8 @@ void Entity::Die(){
 
 }
 
+void Entity::setTarget(int x, int y){}
+
 bool Entity::returnDie()
 {
     return die;

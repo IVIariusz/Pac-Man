@@ -10,6 +10,7 @@ void CollisionManager::updateFlags(){
     int y = entities.getEntities()[0]->getStructure().sprite.getPosition().y;
     int PacManPosX = x / 32;
     int PacManPosY = y / 32;
+    bool kill =  entities.getEntities()[0]->getChase();
 
     for (int i = 0; i < entities.getEntities().size(); i++) {
         top = true, bottom = true, right = true, left = true;
@@ -53,7 +54,14 @@ void CollisionManager::updateFlags(){
         }
         entity->setFlags(top, bottom, right, left);
 
-        if(PacManPosX == x && PacManPosY == y && i != 0) entities.getEntities()[0]->Die();
+        if(PacManPosX == x && PacManPosY == y && i != 0)
+        {
+            if(!kill) entities.getEntities()[0]->Die();
+            else 
+            {
+                entities.getEntities()[i]->Die();
+            }
+        } 
 
 
     }
@@ -69,7 +77,11 @@ void CollisionManager::checkDotsCollision(){
     int y = (entity->getStructure().sprite.getPosition().y) / NORMAL_TILE_SIZE;
 
     if(!DotsData[y].at(x).getTakenState()) {
-        if(DotsData[y].at(x).returnStructure().nameOfTileMap == POWER_PILL_TEXTURE) ui.addScore(20);
+        if(DotsData[y].at(x).returnStructure().nameOfTileMap == POWER_PILL_TEXTURE)
+        {
+            ui.addScore(20);
+            entities.getEntities()[0]->setChase(true);
+        } 
         else {
             ui.addScore(10);
         } 

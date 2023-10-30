@@ -7,11 +7,20 @@ Ghost::Ghost(sf::Vector2<int> pos, int type, std::string tileMapName, Entity* pa
     structureData.textureId = 24 + _type;
     direction = 0;
 
-    setTarget();
+    setTarget(0, 0);
 }
 
 void Ghost::Move() {
-    setTarget();
+    if(pacman->getChase())
+    {
+        structureData.textureId = 96;
+    }
+    else
+    {
+        structureData.textureId = 24 + _type;
+    }
+
+    setTarget(0, 0);
     CalculateDirectionToMove();
     switch (direction)
     {
@@ -38,8 +47,14 @@ void Ghost::Move() {
     }
 }
 
-void Ghost::setTarget()
+void Ghost::setTarget(int X_3, int Y_3)
 {
+    if(X_3 != 0 && Y_3!=0)
+    {
+        X3 = X_3;
+        Y3 = Y_3;
+    }
+
     if(!chase)
     {
         switch (_type)
@@ -72,8 +87,6 @@ void Ghost::setTarget()
         int xdir = 0;
         int ydir = 0;
 
-        std::cout << direction;
-
         if(direction == 1) ydir = -1;
         else if(direction == 2) ydir = 1;
         else if(direction == 3) xdir = -1;
@@ -100,12 +113,29 @@ void Ghost::setTarget()
             }
             break;
         case 4:
-            targetX = 672;
-            targetY = 0;
+        {
+            int distanceX = pacman->getStructure().sprite.getPosition().x - X3;
+            int distanceY = pacman->getStructure().sprite.getPosition().y - Y3;
+            targetX = pacman->getStructure().sprite.getPosition().x - distanceX;
+            targetY = pacman->getStructure().sprite.getPosition().y - distanceY;
             break;
+        }
         default:
             break;
         }
+    }
+
+    if(pacman->getChase())
+    {
+        targetX = 800 - targetX;
+        targetY = 800 - targetY;
+    }
+
+    if(die)
+    {
+        std::cout << "a";
+        targetX = 0;
+        targetY = 0;
     }
 }
 
@@ -171,9 +201,13 @@ float Calculate(int x1, int x2, int y1, int y2)
 
 void Ghost::setChase(bool flag){
     chase = flag;
-    setTarget();
+    setTarget(0, 0);
 }
 
 void Ghost::Die() {
-    
+    die = true;
+}
+
+bool Ghost::getChase(){
+    return chase;
 }
