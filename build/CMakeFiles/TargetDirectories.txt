@@ -1,3 +1,0 @@
-C:/Users/mwozn/OneDrive/Pulpit/SFML/build/CMakeFiles/nibbles.dir
-C:/Users/mwozn/OneDrive/Pulpit/SFML/build/CMakeFiles/edit_cache.dir
-C:/Users/mwozn/OneDrive/Pulpit/SFML/build/CMakeFiles/rebuild_cache.dir
